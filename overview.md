@@ -26,9 +26,7 @@ The Electrode Platform also has tools that can be consumed by existing applicati
 
 * one which enables[discovery of reusable components](http://www.electrode.io/docs/electrode_explorer.html)
 
-* another to help optimize your[JavaScript bundles](http://www.electrode.io/docs/electrify.html)
+* another to help optimize your [JavaScript bundles](http://www.electrode.io/docs/electrify.html)
 
 **Start using **[**Electrode Explorer**](http://www.electrode.io/docs/electrode_explorer.html) **and **[**Electrify**](http://www.electrode.io/docs/electrify.html) **in your existing applications.**
-
-
 
