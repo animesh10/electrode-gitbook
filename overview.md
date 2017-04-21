@@ -10,3 +10,9 @@ The heart of the Electrode platform is managed by the [Electrode Archetype Syste
 
 **It only takes a few minutes to get your new Electrode application running and deployed to the cloud. See our **[**Getting Started:Quick Guide**](http://www.electrode.io/docs/get_started.html) **to get started now.**
 
+---
+
+---
+
+
+
