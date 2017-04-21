@@ -12,3 +12,9 @@ Rich app like experiences are possible without requiring a full page load when n
 
 This approach provides for an optimized user experience resulting in fast page loads and even faster navigation experience. In the world of eCommerce where every millisecond counts, we believe this is the best way forward.
 
+### Code/UI Reuse
+
+
+
+
+
