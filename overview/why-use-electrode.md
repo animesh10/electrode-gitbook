@@ -34,3 +34,9 @@ To solve these problems, we created the Electrode platform. Electrode consists o
 
 **Electrode Tools **help [organize](http://www.electrode.io/docs/electrode_explorer.html) reusable components and [optimize large JavaScript bundles](http://www.electrode.io/docs/electrify.html). Like the modules, our tools can be used with any React/Node.js app.
 
+### Future Investment
+
+[Electrode](https://github.com/electrode-io) will continue to improve as we continue to solve problems like these at [@WalmartLabs](http://www.walmartlabs.com/). Future enhancements will include more [progressive web app features](https://developers.google.com/web/progressive-web-apps/) for web and mobile, bigger investments in performance, and much more.
+
+We're committed to open source, which means our investment is your investment.
+
