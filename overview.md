@@ -8,5 +8,5 @@ Electrode Core allows you to build a flexible and universal React/Node.js applic
 
 The heart of the Electrode platform is managed by the [Electrode Archetype System](http://www.electrode.io/docs/what_are_archetypes.html), which allows for a standardized configuration, structure and workflow throughout the entire application. By enforcing a sensible structure and consistency for components, modules and the entire app, Electrode’s Archetype system helps you build scalable applications you can trust while ensuring streamlined development and deployment.
 
-**It only takes a few minutes to get your new Electrode application running and deployed to the cloud. See our**[**Getting Started:Quick Guide**](http://www.electrode.io/docs/get_started.html) **to get started now.**
+**It only takes a few minutes to get your new Electrode application running and deployed to the cloud. See our **[**Getting Started:Quick Guide**](http://www.electrode.io/docs/get_started.html) **to get started now.**
 
