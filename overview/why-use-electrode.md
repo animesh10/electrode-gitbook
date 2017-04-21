@@ -22,5 +22,5 @@ We serve millions of customers a day, so performance is critical to our business
 
 ### Fast Startup and Deployment
 
-
+We don't have time to create an application structure, configuration files, and Docker containers from scratch every time we start a project. We need to start fast and to deploy fast, with a consistent structure and optimal configuration every time.
 
