@@ -6,5 +6,11 @@ At [@WalmartLabs](http://www.walmartlabs.com/), we recently migrated [walmart.co
 
 ### Universal JavaScript
 
+Universal JavaScript allows us to use the same view rendering code from the server and client. When a user requests a page, they immediately receive the fully rendered HTML on initial page load. They will not have to wait for the client side JavaScript code to load and render the page.
+
+Rich app like experiences are possible without requiring a full page load when navigating or responding to user actions within the same page. The client side code will handle all the rendering of the view changes within the page. Only the data changes will be sent between the client and the server.
+
+This approach provides for an optimized user experience resulting in fast page loads and even faster navigation experience. In the world of eCommerce where every millisecond counts, we believe this is the best way forward.
+
 
 
