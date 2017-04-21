@@ -18,5 +18,5 @@ We reuse React components across all of our brands, which means our developers n
 
 ### Server Side Rendering \(SSR\) Performance
 
-
+We serve millions of customers a day, so performance is critical to our business. React's SSR support is vital for SEO \(Search Engine Optimization\) and has the potential to improve performance, but it's intensive on the server CPUs. We needed a platform with SSR built-in with a default configuration that's optimized for performance.
 
