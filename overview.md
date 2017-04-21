@@ -14,5 +14,7 @@ The heart of the Electrode platform is managed by the [Electrode Archetype Syste
 
 ---
 
+### Stand Alone Modules: Optimize Where You Want
+
 
 
