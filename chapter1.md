@@ -1,6 +1,9 @@
 # Getting Started
 
-* Setup
-* * 
+* Quick Start
+* Intermediate
+* Advanced
+* Over the Air
+
 
 
