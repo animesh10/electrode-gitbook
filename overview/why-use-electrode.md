@@ -32,5 +32,5 @@ To solve these problems, we created the Electrode platform. Electrode consists o
 
 **Electrode Modules**\_improve performance, efficiency, and security by adding features like [above the fold rendering](http://www.electrode.io/docs/above_fold_rendering.html), [configuration management](http://www.electrode.io/docs/confippet.html), and [cross-site request forgery protection](http://www.electrode.io/docs/stateless_csrf_validation.html). These modules can even be used with your existing React/Node.js application—so there's no need to migrate to Electrode Core.
 
-**Electrode Tools**\_help [organize](http://www.electrode.io/docs/electrode_explorer.html) reusable components and [optimize large JavaScript bundles](http://www.electrode.io/docs/electrify.html). Like the modules, our tools can be used with any React/Node.js app.
+**Electrode Tools **help [organize](http://www.electrode.io/docs/electrode_explorer.html) reusable components and [optimize large JavaScript bundles](http://www.electrode.io/docs/electrify.html). Like the modules, our tools can be used with any React/Node.js app.
 
