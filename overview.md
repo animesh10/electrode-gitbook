@@ -18,3 +18,17 @@ The Electrode platform uses several modules to help with a variety of common tas
 
 **Start using these modules in your existing application with our **[**guide**](http://www.electrode.io/docs/stand_alone_modules.html)**.**
 
+---
+
+### Tools: Power Up Your Existing Applications
+
+The Electrode Platform also has tools that can be consumed by existing applications built with other platforms \(though with Electrode core, these tools are either bundled directly or require far less configuration\). There are currently two powerful tools:
+
+* one which enables[discovery of reusable components](http://www.electrode.io/docs/electrode_explorer.html)
+
+* another to help optimize your[JavaScript bundles](http://www.electrode.io/docs/electrify.html)
+
+**Start using **[**Electrode Explorer**](http://www.electrode.io/docs/electrode_explorer.html) **and **[**Electrify**](http://www.electrode.io/docs/electrify.html) **in your existing applications.**
+
+
+
