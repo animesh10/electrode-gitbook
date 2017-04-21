@@ -8,10 +8,7 @@ Install the latest
 
 1. [NodeJS LTS binary](https://nodejs.org/) in your machine. \(at least v4.2 required\).
    * Recommend a tool like [nvm](https://github.com/creationix/nvm#install-script) for managing NodeJS installations.
-2. Install latest \(v3\) of
-   [npm](https://www.npmjs.com/)
-   with
-   `npm install -g npm`
+2. Install latest \(v3\) of [npm](https://www.npmjs.com/) with `npm install -g npm`
    .
    * Note: NodeJS v6.x already comes with npm@3 by default.
    * **Electrode requires npm version **
