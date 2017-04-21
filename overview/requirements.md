@@ -11,10 +11,7 @@ Install the latest
 2. Install latest \(v3\) of [npm](https://www.npmjs.com/) with `npm install -g npm`.
    * Note: NodeJS v6.x already comes with npm@3 by default.
    * **Electrode requires npm version &gt;= 3**
-3. Install
-   [Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
-   with
-   `npm install -g gulp-cli`
+3. Install [Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md) with `npm install -g gulp-cli`
    .
 4. The text editor of your choice downloaded with CLI tools installed.
 
