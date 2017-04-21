@@ -14,11 +14,11 @@ Install the latest
 3. Install [Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md) with `npm install -g gulp-cli`.
 4. The text editor of your choice downloaded with CLI tools installed.
 
-
-
 > We write NodeJS code with ES6 features that NodeJS &gt;= 4.2 supports.
 >
 > Gulp is a Javascript build tool that lets us automate tasks.
+
+## For Online Deployments
 
 
 
