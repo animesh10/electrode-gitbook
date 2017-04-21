@@ -21,5 +21,11 @@ First, let's quickly check your development environment. You will need to have t
 * A [Heroku](https://signup.heroku.com/dc) account + [CLI tools](https://devcenter.heroku.com/articles/heroku-command-line).
 * A [Github](https://github.com/) account.
 
+Ready? Let's
+
+[build](http://www.electrode.io/docs/build_component.html)
+
+.
+
 
 
