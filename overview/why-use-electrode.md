@@ -40,3 +40,7 @@ To solve these problems, we created the Electrode platform. Electrode consists o
 
 We're committed to open source, which means our investment is your investment.
 
+### Take a Look
+
+
+
