@@ -14,7 +14,5 @@ This approach provides for an optimized user experience resulting in fast page l
 
 ### Code/UI Reuse
 
-
-
-
+We reuse React components across all of our brands, which means our developers need to be able to search through thousands of components, view their documentation and see them rendered, and use another developer's component secure in the knowledge that its structure and implementation are consistent with our standards. We needed a way to ensure that all components were built according to modern best practices, without slowing our developers down with a lot of manual configuration.
 
