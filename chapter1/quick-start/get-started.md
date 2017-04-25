@@ -15,5 +15,11 @@ Please make sure to have all the [environment requirements](http://www.electrode
 
 First, install [Yeoman](http://yeoman.io/) and the [Electrode Generator](https://github.com/electrode-io/electrode#yeoman-generator).
 
+```
+$ npm install -g yo gulp generator-electrode
+
+** NOTE: You may need sudo depending on your machine permissions. **
+```
+
 
 
