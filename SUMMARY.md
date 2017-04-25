@@ -8,4 +8,5 @@
 * [Getting Started](chapter1.md)
   * [Quick Start](chapter1/quick-start.md)
     * [Get Started](chapter1/quick-start/get-started.md)
+    * [Build Component](chapter1/quick-start/build-component.md)
 
