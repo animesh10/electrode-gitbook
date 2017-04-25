@@ -102,7 +102,7 @@ Let's take a quick high level overview of our file structure and what `generator
 
 * `.ismorphic-loader-config.json`
 
-  A webpack loader, plugin and library to make NodeJS`require`work with complex files like images when we are doing server-side rendering.
+  A webpack loader, plugin and library to make NodeJS `require` work with complex files like images when we are doing server-side rendering.
 
 * `.travis.yml`
 
