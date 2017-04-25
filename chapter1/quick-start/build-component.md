@@ -179,7 +179,5 @@ Run our new favorite command to see your tech list:
 $ gulp dev
 ```
 
-
-
-
+Navigate to [https://localhost:3000](https://localhost:3000%5D/).
 
