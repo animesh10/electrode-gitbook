@@ -31,5 +31,9 @@ $ cd your-awesome-app
 $ yo electrode
 ```
 
+Fill out the Electrode App generator with your information:
 
+![](http://www.electrode.io/img/generator-application.png)
+
+Run one simple command to start the server. Presto!
 
