@@ -42,7 +42,7 @@ $ gulp dev
 
 Now open [localhost:3000](http://localhost:3000/) in your browser to access the app. Hello Electrode!
 
-To view all the gulp tasks available type`gulp`. To build your app's client bundle for production use.
+To view all the gulp tasks available type `gulp`. To build your app's client bundle for production use.
 
 ```
 $ gulp build
