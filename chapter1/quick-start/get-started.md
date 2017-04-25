@@ -58,7 +58,7 @@ $ npm run prod
 
 ## Project Structure
 
-Let's take a quick high level overview of our file structure and what`generator-electrode`gives you out the box. Read through our[What's Inside section](http://www.electrode.io/docs/whats_inside.html)for a more detailed description.
+Let's take a quick high level overview of our file structure and what `generator-electrode` gives you out the box. Read through our[What's Inside section](http://www.electrode.io/docs/whats_inside.html)for a more detailed description.
 
 * `src/client/`
 
