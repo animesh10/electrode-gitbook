@@ -187,3 +187,5 @@ Navigate to [https://localhost:3000](https://localhost:3000]/).
 
 ![](http://i.imgur.com/nwEl64l.png)
 
+Now let's jump to our next step, where we will deploy Your Awesome App to [Heroku](http://www.electrode.io/docs/deploy_app.html).
+
