@@ -144,5 +144,34 @@ export default connect(mapStateToProps, mapDispatchToProps)(Home);
 
 Let's finish the UI by adding styles. Navigate to`<your-awesome-app>/src/client/styles/base.css` and add the code below:
 
+```
+h1 {
+  font-size: 16px;
+  color: red;
+}
+
+p {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+a {
+  font-size: 14px;
+  color: red;
+}
+
+a:hover {
+  color: blue;
+}
+
+.resource {
+  margin-bottom: 10px;
+}
+
+.title {
+  border-bottom: 2px solid blue;
+  text-align: center;
+}
+```
+
 
 
