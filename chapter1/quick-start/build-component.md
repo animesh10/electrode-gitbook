@@ -4,7 +4,7 @@
 
 After you've generated your awesome electrode app, you are ready to focus on writing your React components.
 
-Navigate to`<your-awesome-app>/src/client/components/home.jsx`:
+Navigate to `<your-awesome-app>/src/client/components/home.jsx`:
 
 ```
 import React, {PropTypes} from "react";
@@ -182,8 +182,6 @@ $ gulp dev
 Navigate to [https://localhost:3000](https://localhost:3000]/).
 
 > If you are already running your app in dev mode, then your changes should've been updated automatically and you can just refresh your browser to see the changes.
-
-
 
 **The page should resemble the following screenshot:**
 
