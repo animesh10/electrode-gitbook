@@ -173,5 +173,7 @@ a:hover {
 }
 ```
 
+Run our new favorite command to see your tech list:
+
 
 
