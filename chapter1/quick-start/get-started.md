@@ -110,7 +110,7 @@ Let's take a quick high level overview of our file structure and what `generator
 
 * `gulpfile.js`
 
-  A file that stores all your Gulp configurations. We will explore this more in[Getting Started: Intermediate](http://www.electrode.io/docs/create_reusable_component.html).
+  A file that stores all your Gulp configurations. We will explore this more in [Getting Started: Intermediate](http://www.electrode.io/docs/create_reusable_component.html).
 
 * `package.json`
 
