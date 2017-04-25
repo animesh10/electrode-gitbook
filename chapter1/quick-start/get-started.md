@@ -114,7 +114,7 @@ Let's take a quick high level overview of our file structure and what `generator
 
 * `package.json`
 
-  Contains the metadata for`your-awesome-app`and a list of your dependencies to install when running`npm install`.
+  Contains the metadata for `your-awesome-app` and a list of your dependencies to install when running `npm install`.
 
 * `README.md`
 
