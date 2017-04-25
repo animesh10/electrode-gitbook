@@ -55,7 +55,7 @@ $ npm run prod
 
 ---
 
-## Project structure
+## Project Structure
 
 
 
