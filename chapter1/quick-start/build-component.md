@@ -183,5 +183,7 @@ Navigate to [https://localhost:3000](https://localhost:3000]/).
 
 > If you are already running your app in dev mode, then your changes should've been updated automatically and you can just refresh your browser to see the changes.
 
+**The page should resemble the following screenshot:**
+
 
 
