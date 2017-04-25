@@ -1,6 +1,4 @@
-```
-Get Started
-```
+# Get Started
 
 > **Electrode Environment Setup Requirements:**  
 > **\* Latest **[**Node LTS binary**](https://nodejs.org/en/)**\(at least v4.2 required\), tip: use **[**nvm**](https://github.com/creationix/nvm) **to manage your nodejs versions. **
