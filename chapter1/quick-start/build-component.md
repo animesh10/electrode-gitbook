@@ -142,5 +142,7 @@ const mapDispatchToProps = (dispatch) => {
 export default connect(mapStateToProps, mapDispatchToProps)(Home);
 ```
 
+Let's finish the UI by adding styles. Navigate to`<your-awesome-app>/src/client/styles/base.css` and add the code below:
+
 
 
