@@ -53,5 +53,9 @@ followed by
 $ npm run prod
 ```
 
+---
+
+## Project structure
+
 
 
