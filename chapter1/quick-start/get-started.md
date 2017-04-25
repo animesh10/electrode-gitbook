@@ -7,5 +7,7 @@
 >
 > please checkout [requirements docs](http://www.electrode.io/docs/requirements.html) for detailed setup instructions.
 
+## Quick Guide
+
 
 
