@@ -90,7 +90,7 @@ Let's take a quick high level overview of our file structure and what `generator
 
 * `node_modules/`
 
-  Other Javascript files contained in modules that we will use in this application, including Electrode modules that create your out-the-box Universal app. This folder is managed directy by`npm`.
+  Other Javascript files contained in modules that we will use in this application, including Electrode modules that create your out-the-box Universal app. This folder is managed directly by`npm`.
 
 * `.babelrc`
 
