@@ -35,3 +35,9 @@ Fill out the Electrode App generator with your information:
 
 Run one simple command to start the server. Presto!
 
+```
+$ gulp dev
+```
+
+
+
