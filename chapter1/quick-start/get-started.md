@@ -47,5 +47,11 @@ To view all the gulp tasks available type`gulp`. To build your app's client bund
 $ gulp build
 ```
 
+followed by
+
+```
+$ npm run prod
+```
+
 
 
