@@ -82,11 +82,11 @@ Let's take a quick high level overview of our file structure and what `generator
 
 * `src/server/`
 
-  Contains your server-side code. Electrode-Server gives you a powerful plugin capable of SSR out the box. Learn more in the[What's Inside section](http://www.electrode.io/docs/whats_inside.html).
+  Contains your server-side code. Electrode-Server gives you a powerful plugin capable of SSR out the box. Learn more in the [What's Inside section](http://www.electrode.io/docs/whats_inside.html).
 
 * `config/`
 
-  Your environment specific configuration files go here and are managed by the versatile[electrode-confippet](http://www.electrode.io/docs/confippet.html)module, including a preset config that you can customize and extend.
+  Your environment specific configuration files go here and are managed by the versatile [electrode-confippet](http://www.electrode.io/docs/confippet.html) module, including a preset config that you can customize and extend.
 
 * `node_modules/`
 
