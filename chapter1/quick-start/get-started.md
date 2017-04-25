@@ -21,7 +21,5 @@ $ npm install -g yo gulp generator-electrode
 ** NOTE: You may need sudo depending on your machine permissions. **
 ```
 
-Make a new directory 
-
-
+Make a new directory for your awesome app, the generate your new project:
 
