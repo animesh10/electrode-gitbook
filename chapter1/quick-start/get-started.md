@@ -23,3 +23,5 @@ $ npm install -g yo gulp generator-electrode
 
 Make a new directory for your awesome app, the generate your new project:
 
+
+
