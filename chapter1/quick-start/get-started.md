@@ -9,5 +9,9 @@
 
 ## Quick Guide
 
+Are you ready to build your first Electrode App?
+
+
+
 
 
