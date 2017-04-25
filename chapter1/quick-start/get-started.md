@@ -1,3 +1,6 @@
+
+---
+
 # Get Started
 
 > **Electrode Environment Setup Requirements:**  
@@ -118,6 +121,8 @@ Let's take a quick high level overview of our file structure and what`generator-
 * `README.md`
 
   Info you want users to know about your app \(installation instructions, licensing, contributors, etc.\).
+
+---
 
 
 
