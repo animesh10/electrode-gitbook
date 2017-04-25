@@ -13,7 +13,5 @@ Are you ready to build your first Electrode App?
 
 Please make sure to have all the [environment requirements](http://www.electrode.io/docs/requirements.html) ready & setup before proceeding to the next step.
 
-First, install [Yeoman](http://yeoman.io/) and the
-
-[Electrode Generator](https://github.com/electrode-io/electrode#yeoman-generator)
+First, install [Yeoman](http://yeoman.io/) and the [Electrode Generator](https://github.com/electrode-io/electrode#yeoman-generator)
 
