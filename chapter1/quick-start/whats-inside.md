@@ -55,3 +55,13 @@ window.webappStart = () => {
 
 If you have a universal application and server-side rendering, [electrode-redux-router-engine](https://github.com/electrode-io/electrode/tree/master/packages/electrode-redux-router-engine) handles async data for React Server Side Rendering using react-router, Redux, and the Redux Server Rendering pattern.
 
+> &lt;your-awesome-app&gt;/src/client/routes.jsx
+
+We will be sharing our routes between server and client, so obviously we only want to define them in one place. The `src/client/routes.jsx` encapsulates the routing logic accordingly.
+
+> &lt;your-awesome-app&gt;/config
+
+In this folder we are leveraging one of our most important stand alone modules: [Electrode-Confippet](http://www.electrode.io/docs/confippet.html). Confippet is a versatile utility for managing your NodeJS application configuration. Its goal is customization and extensibility while offering a [preset configuration](https://github.com/electrode-io/electrode-confippet) out of the box.
+
+
+
