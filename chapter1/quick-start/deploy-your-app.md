@@ -12,7 +12,7 @@ $ git push -u origin master
 
 Navigate to the [Heroku site](https://signup.heroku.com/dc) and set up a free account. This will help streamline our deployment process \(we will do this several times\).
 
-Next, let's quickly deploy`your-awesome-app`from the command line.[Click here](https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up")to download and install the Heroku CLI for your machine.
+Next, let's quickly deploy`your-awesome-app`from the command line.\[Click here\]\([https://devcenter.heroku.com/articles/getting-started-with-nodejs\#set-up"\) to](https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up"%29to) download and install the Heroku CLI for your machine.
 
 When you are finished installing, log in using the email address and password you used when creating your Heroku account.
 
