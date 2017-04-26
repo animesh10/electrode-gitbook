@@ -29,5 +29,5 @@ Password:
 
 You should see a terminal message`Logged in as your-example-email@your-email-provider.com`. Now, let's deploy!
 
-You'll need to specify the [version of node](https://devcenter.heroku.com/articles/node-best-practices) and npm you are using on your machine into our`package.json`. Add the code below to your `package.json`. Make sure to change `"node": "4.2.x"`, and `"npm": 3.10.x` to your actual node and npm version. To find out what versions you have, run `node -v`and`npm -v` in the command line.
+You'll need to specify the [version of node](https://devcenter.heroku.com/articles/node-best-practices) and npm you are using on your machine into our`package.json`. Add the code below to your `package.json`. Make sure to change `"node": "4.2.x"`, and `"npm": 3.10.x` to your actual node and npm version. To find out what versions you have, run `node -v`and`npm -v` in the command line
 
