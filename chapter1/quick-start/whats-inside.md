@@ -28,3 +28,12 @@ Any real world web application needs to be able to handle different routes servi
 
 Why react-router? The project is mature, well-documented, and integrates well within the Electrode tech stack.
 
+```
+import {createStore} from "redux";
+import {Provider} from "react-redux";
+```
+
+[Redux](http://redux.js.org/) is a state management library where your application data is in a store which contains a single object tree. This store is the single source of truth for your application and holds the state of your application. The store provides api's to access and update the state of your application. [React-Redux](https://github.com/reactjs/react-redux) is the official binding for Redux and React.
+
+The rest of the code in `src/client/app.jsx`sets up the React app to run when the page is loaded. The selector is based on the`<div>`in`electrode-react-webapp/lib/index.html`within your`node_modules`.
+
