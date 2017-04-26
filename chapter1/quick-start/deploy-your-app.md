@@ -22,5 +22,10 @@ $ heroku login
 
 Enter your Heroku credentials:
 
+```
+Email: your-example-email@walmartlabs.com
+Password:
+```
+
 
 
