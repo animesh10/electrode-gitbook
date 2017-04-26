@@ -122,5 +122,19 @@ Use the command below to set a configuration for [production.js](https://github.
 $ heroku config:set STATIC_FILES_OFF=true
 ```
 
+Now deploy your code:
+
+```
+$ git push heroku master
+```
+
+Visit the app at the generated URL by using this command:
+
+```
+$ heroku open
+```
+
+
+
 
 
