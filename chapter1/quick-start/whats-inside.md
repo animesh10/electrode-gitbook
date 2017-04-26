@@ -124,5 +124,11 @@ This includes React components and Redux. To achieve this, the Electrode team ha
 
 This is where we extend our `electrode-archetype-react-app` [Babel](https://babeljs.io/docs/usage/babelrc/) configuration to use [the ES6 presets](https://babeljs.io/docs/plugins/preset-es2015/), as well as specifying any plugins or projects that need additional Babel settings.
 
+> &lt;your-awesome-app&gt;/.isomorphic-loader-config.json
 
+This [powerful tool](https://github.com/electrode-io/isomorphic-loader) makes NodeJS `require` work with files such as images for server-side rendering. It contains three pieces: a Webpack loader, Webpack plugin, and a library for your NodeJS app.
+
+---
+
+With `generator-electrode`, we've created a dynamic and performant full stack Electrode app in under five minutes, using some of our favorite technologies, like [React](https://facebook.github.io/react/index.html) and [Hapi](http://hapijs.com/). Let's explore and personalize this web application in our next section, [Intermediate: Create a Resuable Component](http://www.electrode.io/docs/create_reusable_component.html).
 
