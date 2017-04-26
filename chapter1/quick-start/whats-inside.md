@@ -24,5 +24,7 @@ import { routes } from "./routes";
 import { Router } from "react-router";
 ```
 
+Any real world web application needs to be able to handle different routes serving different content, so how do we handle the concept of routing in the Electrode platform? The library chosen to take care of this for us is [react-router](https://github.com/reactjs/react-router/tree/master/docs)
 
+.
 
