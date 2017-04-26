@@ -16,7 +16,5 @@ We will use [CSS Modules](https://github.com/css-modules/css-modules): a CSS fil
 
 > &lt;your-awesome-app&gt;/src/client/app.jsx
 
-To help you understand what `src/client/app.jsx`
-
-is doing, including the relationship between client and server, we've broken down each part of this file with a brief explanation below, including links to sources where you can learn even more:
+To help you understand what `src/client/app.jsx `is doing, including the relationship between client and server, we've broken down each part of this file with a brief explanation below, including links to sources where you can learn even more:
 
