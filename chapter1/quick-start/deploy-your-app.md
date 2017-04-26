@@ -104,5 +104,11 @@ Create an app on Heroku \(which prepares Heroku to receive your source code\). T
 $ heroku create
 ```
 
+Alternatively, you can also create an app that will generate a your app's name \(if it is available\):
+
+```
+$ heroku create your-awesome-app
+```
+
 
 
