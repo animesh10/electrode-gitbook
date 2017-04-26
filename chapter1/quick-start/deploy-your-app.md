@@ -27,5 +27,7 @@ Email: your-example-email@walmartlabs.com
 Password:
 ```
 
+You should see a terminal message`Logged in as your-example-email@your-email-provider.com`. Now, let's deploy!
+
 
 
