@@ -37,3 +37,21 @@ import {Provider} from "react-redux";
 
 The rest of the code in `src/client/app.jsx` sets up the React app to run when the page is loaded. The selector is based on the `<div>` in `electrode-react-webapp/lib/index.html` within your `node_modules`.
 
+```
+window.webappStart = () => {
+  const initialState = window.__PRELOADED_STATE__;
+  const store = createStore(rootReducer, initialState, enhancer);
+  render(
+      <Provider store={store}>
+        <div>
+          <Router history={browserHistory}>{routes}</Router>
+          <DevTools />
+        </div>
+      </Provider>,
+    document.querySelector(".js-content")
+  );
+};
+```
+
+If you have a universal application and server-side rendering, [electrode-redux-router-engine](https://github.com/electrode-io/electrode/tree/master/packages/electrode-redux-router-engine) handles async data for React Server Side Rendering using react-router, Redux, and the Redux Server Rendering pattern.
+
