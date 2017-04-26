@@ -134,7 +134,5 @@ Visit the app at the generated URL by using this command:
 $ heroku open
 ```
 
-
-
-
+And...you did it! [Click here](https://first-electrode-example-app.herokuapp.com/) for our deployed Heroku version. We will build even more in our [Getting Started: Intermediate](http://www.electrode.io/docs/create_reusable_component.html) and cover complex topics like routing, server plugins and other powerful deployment software.
 
