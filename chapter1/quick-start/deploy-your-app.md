@@ -100,3 +100,9 @@ $ git commit -m "Updates package.json with node version"
 
 Create an app on Heroku \(which prepares Heroku to receive your source code\). This will also create a git remote called `heroku`and generate a random name:
 
+```
+$ heroku create
+```
+
+
+
