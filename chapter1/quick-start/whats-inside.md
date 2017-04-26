@@ -63,5 +63,60 @@ We will be sharing our routes between server and client, so obviously we only wa
 
 In this folder we are leveraging one of our most important stand alone modules: [Electrode-Confippet](http://www.electrode.io/docs/confippet.html). Confippet is a versatile utility for managing your NodeJS application configuration. Its goal is customization and extensibility while offering a [preset configuration](https://github.com/electrode-io/electrode-confippet) out of the box.
 
+```
+config
+    ├── default.json
+    ├── development.json
+    └── production.json
+```
 
+We use this to keep environment-specific configurations manageable. Once you have your configuration files setup accordingly, you can simply pass the config object to electrode server.
+
+> &lt;your-awesome-app&gt;/src/server
+
+```
+server/
+├── conditions
+│   ├── machine-info.js
+│   ├── machine-load.js
+│   ├── response-time.js
+│   └── server-load.js
+├── index.js
+├── plugins
+│   ├── autossr.js
+│   ├── csrf.js
+│   ├── pwa.js
+│   └── updateStorage.js
+├── storage.json
+└── views
+    └── index-view.jsx
+```
+
+You are now using [Electrode-Server](https://github.com/electrode-io/electrode-server), a NodeJS module that allows you to start up a Hapi server with a single function call, but gives you a lot of flexibility through configurations. This is the baseline functionality of a [Hapi](http://hapijs.com/) web server that you can extend via configuration.
+
+Before we move on, we should inspect a critical file, `electrode-react-webapp/lib/index.html` located within your `node_modules`. This is where the server-side rendering magic happens, implemented automatically via `generator-electrode`:
+
+```
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <title>{{PAGE_TITLE}}</title>
+    {{WEBAPP_BUNDLES}}
+    {{PREFETCH_BUNDLES}}
+  </head>
+  <body>
+    <div class="js-content">{{SSR_CONTENT}}</div>
+   <script>if (window.webappStart) webappStart();</script>
+ </body>
+</html>
+```
+
+All of your content will be served as an HTML string and placed in this unassuming piece of code:
+
+```
+<div class="js-content">{{SSR_CONTENT}}</div>
+```
+
+This includes React components and Redux. To achieve this, the Electrode team has created another powerful module to optimize performance for an out-of-the-box Universal app: [Electrode-Redux-Router-Engine](https://github.com/electrode-io/electrode-redux-router-engine), which takes React routes and requests and returns HTML to be rendered by `electrode-react-webapp`. We have found this to be the [best tool](https://github.com/electrode-io/electrode-redux-router-engine) for dealing with asynchronous redux actions.
 
