@@ -110,5 +110,13 @@ Alternatively, you can also create an app that will generate a your app's name \
 $ heroku create your-awesome-app
 ```
 
+Use the command below to set a configuration so that Heroku installs Your-Awesome-App's devDependencies:
+
+```
+$ heroku config:set NPM_CONFIG_PRODUCTION=false
+```
+
+Use the command below to set a configuration for [production.js](https://github.com/electrode-io/electrode/blob/148a4f4a2e8d78443eb3bdc1cf62f4d74bf49755/packages/generator-electrode/generators/app/templates/config/production.js#L11), only set this if you intend to serve static files with a CDN.
+
 
 
