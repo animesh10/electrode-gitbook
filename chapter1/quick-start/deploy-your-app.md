@@ -20,5 +20,7 @@ When you are finished installing, log in using the email address and password yo
 $ heroku login
 ```
 
+Enter your Heroku credentials:
+
 
 
