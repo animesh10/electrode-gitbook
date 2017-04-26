@@ -16,3 +16,9 @@ Next, let's quickly deploy `your-awesome-app` from the command line. \[Click her
 
 When you are finished installing, log in using the email address and password you used when creating your Heroku account.
 
+```
+$ heroku login
+```
+
+
+
