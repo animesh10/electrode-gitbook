@@ -1,8 +1,6 @@
 # Deploy Your App
 
-We're almost finished with our Quick Start. The final step is to deploy `your-awesome-app` and share it with your fellow developers using
-
-[Heroku](https://devcenter.heroku.com/categories/deployment)
+We're almost finished with our Quick Start. The final step is to deploy `your-awesome-app` and share it with your fellow developers using [Heroku](https://devcenter.heroku.com/categories/deployment)
 
 . We have listed the steps below, but feel free to learn more about Heroku
 
