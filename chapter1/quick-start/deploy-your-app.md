@@ -29,5 +29,76 @@ Password:
 
 You should see a terminal message`Logged in as your-example-email@your-email-provider.com`. Now, let's deploy!
 
-You'll need to specify the [version of node](https://devcenter.heroku.com/articles/node-best-practices) and npm you are using on your machine into our`package.json`. Add the code below to your `package.json`. Make sure to change `"node": "4.2.x"`, and `"npm": 3.10.x` to your actual node and npm version. To find out what versions you have, run `node -v` and`npm -v` in the command line
+You'll need to specify the [version of node](https://devcenter.heroku.com/articles/node-best-practices) and npm you are using on your machine into our `package.json`. Add the code below to your `package.json`. Make sure to change `"node": "4.2.x"`, and `"npm": 3.10.x` to your actual node and npm version. To find out what versions you have, run `node -v` and`npm -v` in the command line
+
+```
+"engines": {
+  "node": "4.2.x",
+  "npm": "3.10.x"
+}
+```
+
+It should now look similar to this:
+
+```
+{
+  "name": "your-awesome-app",
+  "version": "0.0.1",
+  "description": "your-app-description",
+  "homepage": "your-awesome-app",
+  "author": {
+    "name": "your-name",
+    "email": "your-email-address@email.com",
+    "url": "your-app-url"
+  },
+  "engines": {
+    "node": "^4.x.x || ^6.x.x",
+    "npm": ">= 3.x.x"
+  },
+  "contributors": [],
+  "files": [
+    "server",
+    "client",
+    "test"
+  ],
+  "main": "server/index.js",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "your-repo-url"
+  },
+  "license": "Apache-2.0",
+  "scripts": {
+    "start": "if test \"$NODE_ENV\" = \"production\"; then npm run prod; else gulp dev; fi",
+    "test": "gulp test",
+    "coverage": "gulp check",
+    "prod": "echo 'Starting standalone server in PROD mode'; node .",
+    "heroku-postbuild": "gulp build"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "electrode-archetype-react-app": "^1.0.0",
+    "electrode-confippet": "^1.0.0",
+    "electrode-redux-router-engine": "^1.2.2",
+    "electrode-server": "^1.0.0",
+    "electrode-static-paths": "^1.0.0",
+    "lodash": "^4.10.1"
+  },
+  "devDependencies": {
+    "electrode-archetype-react-app-dev": "^1.0.0",
+    "gulp": "^3.9.1"
+  }
+}
+```
+
+Use the following commands to commit your changes:
+
+```
+$ git add .
+$ git commit -m "Updates package.json with node version"
+```
+
+Create an app on Heroku \(which prepares Heroku to receive your source code\). This will also create a git remote called`heroku `and generate a random name:
+
+
 
