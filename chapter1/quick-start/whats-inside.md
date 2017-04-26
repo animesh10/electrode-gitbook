@@ -14,7 +14,7 @@ Building with React lets developers create a modular and reusable component arch
 
 We will use [CSS Modules](https://github.com/css-modules/css-modules): a CSS file in which all class names and animation names are scoped locally by default. At WalmartLabs, this helps us tackle large-scale styling requirements by mitigating the issues inherent in the global scope in CSS.
 
-> &lt;your-awesome-app&gt;/src/client/styles/app.jsx
+> &lt;your-awesome-app&gt;/src/client/app.jsx
 
 
 
