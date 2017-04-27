@@ -6,13 +6,13 @@
 >
 > * [**npm v3**](https://github.com/npm/npm/releases/tag/v3.0.0) **- Install the latest **[**npm**](https://www.npmjs.com/) **version **`npm install -g npm`
 >
-> please checkout [requirements docs](http://www.electrode.io/docs/requirements.html) for detailed setup instructions.
+> please checkout [requirements docs](/overview/requirements.md) for detailed setup instructions.
 
 ## Quick Guide
 
 Are you ready to build your first Electrode App?
 
-Please make sure to have all the [environment requirements](http://www.electrode.io/docs/requirements.html) ready & setup before proceeding to the next step.
+Please make sure to have all the [environment requirements](/overview/requirements.md) ready & setup before proceeding to the next step.
 
 First, install [Yeoman](http://yeoman.io/) and the [Electrode Generator](https://github.com/electrode-io/electrode#yeoman-generator).
 
@@ -25,18 +25,19 @@ $ npm install -g yo gulp generator-electrode
 Make a new directory for your awesome app, the generate your new project:
 
 ```
-$ mkdir your-awesome-app
-$ cd your-awesome-app
+$ mkdir electrode-app-dir
+$ cd electrode-app-dir
 $ yo electrode
 ```
 
-Fill out the Electrode App generator with your information:
+Fill out the Electrode App generator with your information, take \`your-awesome-app\` as an example of your Application Name:
 
 ![](http://www.electrode.io/img/generator-application.png)
 
 Run one simple command to start the server. Presto!
 
 ```
+$ cd your-awesome-app
 $ gulp dev
 ```
 
@@ -58,7 +59,7 @@ $ npm run prod
 
 ## Project Structure
 
-Let's take a quick high level overview of our file structure and what `generator-electrode` gives you out the box. Read through our [What's Inside section](http://www.electrode.io/docs/whats_inside.html) for a more detailed description.
+Let's take a quick high level overview of our file structure and what `generator-electrode` gives you out the box. Read through our [What's Inside section](/chapter1/quick-start/whats-inside.md) for a more detailed description.
 
 * `src/client/`
 
@@ -82,7 +83,7 @@ Let's take a quick high level overview of our file structure and what `generator
 
 * `src/server/`
 
-  Contains your server-side code. Electrode-Server gives you a powerful plugin capable of SSR out the box. Learn more in the [What's Inside section](http://www.electrode.io/docs/whats_inside.html).
+  Contains your server-side code. Electrode-Server gives you a powerful plugin capable of SSR out the box. Learn more in the [What's Inside section](/chapter1/quick-start/whats-inside.md).
 
 * `config/`
 
@@ -110,11 +111,11 @@ Let's take a quick high level overview of our file structure and what `generator
 
 * `gulpfile.js`
 
-  A file that stores all your Gulp configurations. We will explore this more in [Getting Started: Intermediate](http://www.electrode.io/docs/create_reusable_component.html).
+  A file that stores all your Gulp configurations. We will explore this more in [Getting Started: Intermediate](/chapter1/Intermediate.md).
 
 * `package.json`
 
-  Contains the metadata for `your-awesome-app` and a list of your dependencies to install when running `npm install`.
+  Contains the metadata for `your-awesome-app`  and a list of your dependencies to install when running `npm install`.
 
 * `README.md`
 

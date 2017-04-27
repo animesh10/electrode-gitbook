@@ -6,9 +6,9 @@
 
 Electrode Core allows you to build a flexible and universal React/Node.js application in minutes, with support for server-side rendering and easy deployment. Use Electrode to start new projects quickly with a simple, consistent structure that follows modern best practices.
 
-The heart of the Electrode platform is managed by the [Electrode Archetype System](http://www.electrode.io/docs/what_are_archetypes.html), which allows for a standardized configuration, structure and workflow throughout the entire application. By enforcing a sensible structure and consistency for components, modules and the entire app, Electrode’s Archetype system helps you build scalable applications you can trust while ensuring streamlined development and deployment.
+The heart of the Electrode platform is managed by the [Electrode Archetype System](/chapter1/quick-start/what-are-archetypes.md), which allows for a standardized configuration, structure and workflow throughout the entire application. By enforcing a sensible structure and consistency for components, modules and the entire app, Electrode’s Archetype system helps you build scalable applications you can trust while ensuring streamlined development and deployment.
 
-**It only takes a few minutes to get your new Electrode application running and deployed to the cloud. See our **[**Getting Started:Quick Guide**](http://www.electrode.io/docs/get_started.html) **to get started now.**
+**It only takes a few minutes to get your new Electrode application running and deployed to the cloud. See our **[**Getting Started:Quick Guide** **to get started**](/chapter1/quick-start/get-started.md)** now.**
 
 ---
 
@@ -30,7 +30,7 @@ The Electrode Platform also has tools that can be consumed by existing applicati
 
 **Start using **[**Electrode Explorer**](http://www.electrode.io/docs/electrode_explorer.html) **and **[**Electrify**](http://www.electrode.io/docs/electrify.html) **in your existing applications.**
 
-## Features
+## Features {#features}
 
 [Electrode Boilerplate](https://github.com/electrode-io/electrode#boilerplate-universal-react-node) comes fully loaded with the best technologies available:
 
@@ -46,7 +46,7 @@ The Electrode Platform also has tools that can be consumed by existing applicati
 
 * [Webpack](https://webpack.github.io/docs/motivation.html) - a powerful module bundler.
 
-* [Webpack Isomorphic Loader](https://github.com/jchip/isomorphic-loader) - a powerful tool that makes NodeJS`require`understand files such as images for SSR.
+* [Webpack Isomorphic Loader](https://github.com/jchip/isomorphic-loader) - a powerful tool that makes NodeJS `require` understand files such as images for SSR.
 
 * [Babel](https://babeljs.io/) - a utility to transpile ES6 + 7.
 
