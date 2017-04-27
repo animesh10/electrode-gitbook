@@ -122,5 +122,5 @@ Let's take a quick high level overview of our file structure and what `generator
 
 ---
 
-Let's continue to build by modifying our component and deploying in [Quick Start: Build Component](http://www.electrode.io/docs/build_component.html).
+Let's continue to build by modifying our component and deploying in [Quick Start: Build Component.](/chapter1/quick-start/build-component.md)
 
