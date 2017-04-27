@@ -12,4 +12,7 @@
     * [Deploy Your App](chapter1/quick-start/deploy-your-app.md)
     * [What's Inside](chapter1/quick-start/whats-inside.md)
     * [What are Archetypes](chapter1/quick-start/what-are-archetypes.md)
+  * [intermediate](chapter1/intermediate.md)
+    * [Create a Reusable Component](chapter1/intermediate/create-a-reusable-component.md)
+      * [Low-Level Components](chapter1/intermediate/create-a-reusable-component/low-level-components.md)
 
