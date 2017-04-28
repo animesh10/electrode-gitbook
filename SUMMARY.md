@@ -21,4 +21,5 @@
       * [Test Components](chapter1/intermediate/create-a-reusable-component/test-components.md)
       * [Add Example](chapter1/intermediate/create-a-reusable-component/add-example.md)
       * [Build and Demo](chapter1/intermediate/create-a-reusable-component/build-and-demo.md)
+      * [Generate Docs](chapter1/intermediate/create-a-reusable-component/generate-docs.md)
 
