@@ -12,7 +12,7 @@ First, let's quickly check your development environment. You will need to have t
 3. Install [Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md) with `npm install -g gulp-cli`.
 4. The text editor of your choice downloaded with CLI tools installed.
 
-> We write NodeJS code with ES6 features that NodeJS &gt;= 4.2 supports.
+> **We write NodeJS code with ES6 features that NodeJS &gt;= 4.2 supports.**
 >
 > Gulp is a Javascript build tool that lets us automate tasks.
 
@@ -21,5 +21,5 @@ First, let's quickly check your development environment. You will need to have t
 * A [Heroku](https://signup.heroku.com/dc) account + [CLI tools](https://devcenter.heroku.com/articles/heroku-command-line).
 * A [Github](https://github.com/) account.
 
-Ready? Let's [build](http://www.electrode.io/docs/build_component.html).
+Ready? Let's [build](/chapter1/quick-start/build-component.md).
 

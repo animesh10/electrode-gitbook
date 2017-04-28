@@ -42,5 +42,5 @@ We're committed to open source, which means our investment is your investment.
 
 ### Take a Look
 
-So let's go! Check out the developer environment [requirements](/overview/requirements.md), dive into [Electrode's features in detail](https://electrode-io.github.io/docs/what_is_electrode.html#features), or use our [Getting Started: Quick Guide](/chapter1.md) to start building now.
+So let's go! Check out the developer environment [requirements](/overview/requirements.md), dive into [Electrode's features in detail](/overview/what-is-electrode.md), or use our [Getting Started: Quick Guide](/chapter1.md) to start building now.
 
