@@ -31,4 +31,7 @@
     * [Build with material-ui](chapter1/intermediate/build-with-material-ui.md)
     * [Build a Progressive Web App](chapter1/intermediate/build-a-progressive-web-app.md)
     * [Server Side Data Hydration](chapter1/intermediate/server-side-data-hydration.md)
+  * [Advanced](chapter1/advanced.md)
+    * [Stand Alone Modules](chapter1/advanced/stand-alone-modules.md)
+      * [Confippet](chapter1/advanced/stand-alone-modules/confippet.md)
 
