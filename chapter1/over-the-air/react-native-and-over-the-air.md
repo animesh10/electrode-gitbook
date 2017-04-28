@@ -46,15 +46,15 @@ Step 1 - Login to github and select Settings.
 
 Step 2 - Go to "Developer Settings" and select "OAuth applications"
 
-![](http://www.electrode.io/img/electrode-ota/2-Register%20OAuth.png)
+![](http://www.electrode.io/img/electrode-ota/2-Register OAuth.png)
 
-Step 3 - Setup your application. Keep in mind protocols and urls are important. Also you can set up a key for development also \(localhost.yourdomain.com\). Make sure that resolves, for your machine, try adding it to your hosts file. If you do not have a public server running you can add a use http://localhost:9001/ for homepage and authorization callback url., for development only.
+Step 3 - Setup your application. Keep in mind protocols and urls are important. Also you can set up a key for development also \(localhost.yourdomain.com\). Make sure that resolves, for your machine, try adding it to your hosts file. If you do not have a public server running you can add a use [http://localhost:9001/](http://localhost:9001/) for homepage and authorization callback url., for development only.
 
-![](http://www.electrode.io/img/electrode-ota/3-Register%20OAuth.png)
+![](http://www.electrode.io/img/electrode-ota/3-Register OAuth.png)
 
 Step 4 - Wild celebration, or double check that everthing is correct. This is your you get your clientId and clientSecret. Keep your clientSecret secret \(avoid checking it into public github for example\).
 
-![](http://www.electrode.io/img/electrode-ota/4-Review%20OAuth.png)
+![](http://www.electrode.io/img/electrode-ota/4-Review OAuth.png)
 
 ### Configure OTA Server
 
@@ -183,5 +183,51 @@ If you you need an Example application you can find one[here](https://github.com
 
 Then add the following to`ios/<%=your_app_name%>/Info.plist`. You can open this in`sh open ios/<%=your_app_name%>.xcodeprog`to edit.
 
-![](http://www.electrode.io/img/electrode-ota/Info-plist.png)
+![](http://www.electrode.io/img/electrode-ota/Info-plist.png)Or using your favorite text editor.`xml <key>CodePushDeploymentKey</key><string><%=your_deployment_key%></string><key>CodePushServerURL</key><string>http://<%=your_ota_server%></string>`If your OTA server is not running over https you will need to add an exception to it in the`ios/<%=your_app_name%>/Info.plist`, or you use Xcode to update the file.`xml <dict><key>NSAllowsArbitraryLoads</key><true/><key>NSExceptionDomains</key><dict><key><%=your_ota_server%></key><dict><key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key><true/></dict></dict></dict>`
+
+### For Android
+
+Modify `android/app/src/main/java/com/<%=your_app_name%>/MainApplication.java`
+
+```
+    /**
+     * A list of packages used by the app. If the app uses additional views
+     * or modules besides the default ones, add more packages here.
+     **/
+    @Override
+    protected List<ReactPackage> getPackages() {
+        return Arrays.<ReactPackage>asList(
+                new MainReactPackage(),
+                new CodePush("<%=your_ota_deployment_key%>", this, BuildConfig.DEBUG, "<%=your_ota_server%>")
+        );
+    }
+```
+
+### Publishing \(React\)
+
+To update the app over the air run. See the Microsoft™ code-push docs for more information. On how to add CodePush to your application.`sh $ cd your_client_app_dir $ code-push release-react <%=YourAppName%> ios --deploymentName <%=Staging|Production|Etc.%>`
+
+## Electrode Over the Air Desktop
+
+You can use either the microsoft code-push-cli or the Electrode OTA Desktop to manage your deployments. You can get the install [here](https://github.com/electrode-io/electrode-ota-desktop/releases).
+
+### Installation
+
+Copy of the ElectrodeOTA icon to the Applications folder
+
+![](http://www.electrode.io/img/electrode-ota/DMG.png)
+
+### Logging in
+
+Use the token from the pretty screen with the trees on it here. The host would be your OTA Server.
+
+![](http://www.electrode.io/img/electrode-ota/Login.png)
+
+### Creating a New App to Manage
+
+You will need an app to get the deployment keys.
+
+![](http://www.electrode.io/img/electrode-ota/GettingStarted.png)
+
+![](http://www.electrode.io/img/electrode-ota/NewAppSuccess.png)
 
