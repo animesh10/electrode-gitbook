@@ -7,15 +7,15 @@
 ### Features
 
 * **Simple**
-  - Confippet's
-  `presetConfig`
-  automatically composes a single config object from multiple files. For most applications, no further customization isnecessary.
+  * Confippet's
+    `presetConfig`
+    automatically composes a single config object from multiple files. For most applications, no further customization isnecessary.
 * **Flexible**
-  - Supports JSON, YAML, and JavaScript config files.
+  * Supports JSON, YAML, and JavaScript config files.
 * **Powerful**
-  - Handles complex multi-instance enterprise deployments.
+  * Handles complex multi-instance enterprise deployments.
 * **Platform Agnostic**
-  - This module is platform agnostic and can be plugged into any Node.js application, including those run on Electrode, Express.js and Hapi.js
+  * This module is platform agnostic and can be plugged into any Node.js application, including those run on Electrode, Express.js and Hapi.js
 
 ## Module:[electrode-confippet](https://github.com/electrode-io/electrode-confippet)
 
@@ -144,15 +144,15 @@ Similarly, update`production.json`to include the following settings:
 
 Now, while`NODE_ENV=production`:
 
-* Server log errors are _disabled _and content encoding is _enabled_
+* Server log errors are _disabled \_and content encoding is \_enabled_
 * Server is run in port 8000
 * The database will be hosted from prod-db-server
 
 Additionally, here are some notes about the settings you just copied:
 
-* The server related configs are from hapi.js. More config options can be found here: http://hapijs.com/api
+* The server related configs are from hapi.js. More config options can be found here: [http://hapijs.com/api](http://hapijs.com/api)
 * The connections property is specific to [electrode server](https://github.com/electrode-io/electrode-server/tree/master/lib/config)
-* Any settings that exist in the `config/default.json` that are _also _in the other environment configs will be replaced by the environment specific versions
+* Any settings that exist in the `config/default.json` that are \_also \_in the other environment configs will be replaced by the environment specific versions
 
 ##### _**Electrode Configuration**_
 
@@ -171,7 +171,7 @@ $ mkdir config
 $ cd config
 ```
 
-Let's add the following files to the `config `directory:
+Let's add the following files to the `config`directory:
 
 ```
 config
@@ -390,9 +390,9 @@ Overridden values are handled as follows:
 
 * Objects are merged.
 * Primitive values \(string, boolean, number\) are replaced.
-* **Arrays are replaced**, unless the key starts with `+`_and _both the source and the target are arrays. In that case, the two arrays are joined together using Lodash's `_.union` method.
+* **Arrays are replaced**, unless the key starts with `+`_and \_both the source and the target are arrays. In that case, the two arrays are joined together using Lodash's \`_.union\` method.
 
-After Confippet loads all available configuration files, it will look for override JSON strings from the `NODE_CONFIG `and `CONFIPPET*` environment variables. See the next section for details.
+After Confippet loads all available configuration files, it will look for override JSON strings from the `NODE_CONFIG`and `CONFIPPET*` environment variables. See the next section for details.
 
 ### Environment Variables
 
@@ -467,9 +467,9 @@ Confippet.presetConfig.load(config, {
 });
 ```
 
-The above compose option adds a new provider that looks for a file named by the environment variable `CUSTOM_CONFIG_SOURCE`and will be loaded after all default sources are loaded \(controlled by `order`\).
+The above compose option adds a new provider that looks for a file named by the environment variable `CUSTOM_CONFIG_SOURCE` and will be loaded after all default sources are loaded \(controlled by `order`\).
 
 It also adds a new extension handler, `json5`, to be loaded after `json`.
 
-To further understand the  `_$`and the `compose`options, please see the documentation for [store](https://github.com/electrode-io/electrode-confippet/blob/master/store.md), [composeConfig](https://github.com/electrode-io/electrode-confippet/blob/master/compose.md), and [processConfig](https://github.com/electrode-io/electrode-confippet/blob/master/templates.md).
+To further understand the  `_$` and the `compose` options, please see the documentation for [store](https://github.com/electrode-io/electrode-confippet/blob/master/store.md), [composeConfig](https://github.com/electrode-io/electrode-confippet/blob/master/compose.md), and [processConfig](https://github.com/electrode-io/electrode-confippet/blob/master/templates.md).
 

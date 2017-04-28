@@ -34,4 +34,6 @@
   * [Advanced](chapter1/advanced.md)
     * [Stand Alone Modules](chapter1/advanced/stand-alone-modules.md)
       * [Confippet](chapter1/advanced/stand-alone-modules/confippet.md)
+      * [Above The Fold Rendering](chapter1/advanced/stand-alone-modules/above-the-fold-rendering.md)
+      * [Server Side Render Caching + Profiling](chapter1/advanced/stand-alone-modules/server-side-render-caching-+-profiling.md)
 
