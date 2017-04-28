@@ -4,9 +4,7 @@
 
 One of the final steps to creating a reusable component is writing the correct documentation, in the form of `component.json`
 
-and
-
-`component.md`
+and `component.md`
 
 . The Electrode team has automated this step for you, using
 
@@ -23,6 +21,4 @@ and
 `/gulpfile.js`
 
 :
-
-
 
