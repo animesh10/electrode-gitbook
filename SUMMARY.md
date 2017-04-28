@@ -36,4 +36,9 @@
       * [Confippet](chapter1/advanced/stand-alone-modules/confippet.md)
       * [Above The Fold Rendering](chapter1/advanced/stand-alone-modules/above-the-fold-rendering.md)
       * [Server Side Render Caching + Profiling](chapter1/advanced/stand-alone-modules/server-side-render-caching-+-profiling.md)
+      * [Stateless CSRF Validation](chapter1/advanced/stand-alone-modules/stateless-csrf-validation.md)
+      * [Redux Router Engine](chapter1/advanced/stand-alone-modules/redux-router-engine.md)
+    * [Powerful Electrode Tools](chapter1/advanced/powerful-electrode-tools.md)
+      * [Electrify](chapter1/advanced/powerful-electrode-tools/electrify.md)
+      * [Electrode Explorer](chapter1/advanced/powerful-electrode-tools/electrode-explorer.md)
 

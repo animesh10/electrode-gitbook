@@ -2,7 +2,7 @@
 
 Optimize React SSR with profiling and component caching. The [electrode-react-ssr-caching](https://github.com/electrode-io/electrode-react-ssr-caching) module supports profiling React Server Side Rendering time to enable component caching to help you speed up Server Side Rendering of your components.
 
-[electrode-react-ssr-caching](https://github.com/electrode-io/electrode-react-ssr-caching) module can be used as a_standalone_module and is_agnostic_to your web-server framework. In this tutorial we will demonstrate how to use this module in Electrode, Express.js and Hapi.js applications.
+[electrode-react-ssr-caching](https://github.com/electrode-io/electrode-react-ssr-caching) module can be used as a\_standalone\_module and is\_agnostic\_to your web-server framework. In this tutorial we will demonstrate how to use this module in Electrode, Express.js and Hapi.js applications.
 
 ## Module: [electrode-react-ssr-caching](https://github.com/electrode-io/electrode-react-ssr-caching)
 
@@ -175,8 +175,6 @@ const cacheConfig = {
 };
 ```
 
-
-
 * `preserveKeys`- List of keys that should not be tokenized.
 * `preserveEmptyKeys`- List of keys that should not be tokenized if they are the empty string `""`
 * `ignoreKeys`- List of keys that should be completely ignored as part of the template cache key.
@@ -188,7 +186,7 @@ const cacheConfig = {
 
 Enable profiling according to flag
 
-* `undefined `or `true`- enable profiling
+* `undefined`or `true`- enable profiling
 * `false`- disable profiling
 
 ### [`enableCaching(flag)`](http://www.electrode.io/docs/server_side_render_cache.html#enablecachingflag)
@@ -217,7 +215,7 @@ Remove`http:`or`https:`from prop values that are URLs according to flag.
 
 > Caching must be enabled for this to have any effect.
 
-* `undefined `or `true `- strip URL protocol
+* `undefined`or `true`- strip URL protocol
 * `false`- don't strip
 
 ### [`shouldHashKeys(flag, [hashFn])`](http://www.electrode.io/docs/server_side_render_cache.html#shouldhashkeysflaghashfn)
@@ -234,4 +232,20 @@ Set whether the `template` strategy should hash the cache key and use that inste
   * i.e.`function customHashFn(key) { return hash(key); }`
 
 If no `hashFn` is provided, then [farmhash](https://github.com/google/farmhash) is used if it's available, otherwise hashing is turned off.
+
+### [`clearProfileData()`](http://www.electrode.io/docs/server_side_render_cache.html#clearprofiledata)
+
+Clear profiling data
+
+### [`clearCache()`](http://www.electrode.io/docs/server_side_render_cache.html#clearcache)
+
+Clear caching data
+
+### [`cacheEntries()`](http://www.electrode.io/docs/server_side_render_cache.html#cacheentries)
+
+Get total number of cache entries
+
+### [`cacheHitReport()`](http://www.electrode.io/docs/server_side_render_cache.html#cachehitreport)
+
+Print out cache entries and number of hits each one has.
 
