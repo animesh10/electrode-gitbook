@@ -39,7 +39,7 @@ $ yo electrode
 # ... answer rest of the questions and wait for app to be generated ...
 ```
 
-_Follow Prerequisites and skip to _[_Push Notifications_](http://www.electrode.io/docs/service_workers.html#push-notifications)
+_Follow Prerequisites and skip to _[_Push Notifications_](/chapter1/intermediate/build-a-progressive-web-app.md)
 
 ### Prerequisites
 
@@ -190,9 +190,9 @@ Navigate to`http://localhost:3000`, open`Developer tools`, and click on the `App
 
 Go ahead and click on the`Offline`checkbox in the Developer tools. Terminate your server. Refresh your web page.
 
-**NOTE: The`Add to Homescreen`banner will pop up only on Android devices with Chrome 42+. To simulate the banner on your desktop Chrome, navigate to`Developer tools`-&gt;`Applications`-&gt;`Manifest`and click on`Add to homescreen`.**
+**NOTE: The**`Add to Homescreen`**banner will pop up only on Android devices with Chrome 42+. To simulate the banner on your desktop Chrome, navigate to**`Developer tools`**-&gt;**`Applications`**-&gt;**`Manifest`**and click on**`Add to homescreen`**.**
 
-### Push notifications
+### Push notifications {#push-notifications}
 
 The [Push API](https://developer.mozilla.org/en-US/docs/Web/API/Push_API) requires a registered service worker so it can send notifications in the background when the web application isn't running. We already have our Service Worker generated with the help of `sw-config.js`. We only need to add a `Push` event to it. Create a new file `sw-events.js` inside the `client` directory and add the following to it:
 
@@ -456,7 +456,7 @@ $ gulp pwa
 
 With all the code in place, we are ready to see push notifications in action.
 
-Navigate to`http://localhost:3000`. Accept the permission for subscribing and you will see a curl command rendered on the page. You can either run the curl command from terminal to see the push notification or fill out the form and click on the`Send`button to trigger it!
+Navigate to `http://localhost:3000`. Accept the permission for subscribing and you will see a curl command rendered on the page. You can either run the curl command from terminal to see the push notification or fill out the form and click on the `Send` button to trigger it!
 
 For more Electrode PWA code examples checkout [electrode-pwa-examples](https://github.com/electrode-samples/electrode-pwa-examples/tree/master/examples) repo.
 

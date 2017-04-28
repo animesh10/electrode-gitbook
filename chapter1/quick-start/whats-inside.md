@@ -4,8 +4,6 @@
 
 What does `generator-electrode` give you? Let's go through the most important files to understand the structure of your new app.
 
-
-
 > &lt;your-awesome-app&gt;/src/client/components/home.jsx
 
 This is the home React component for your app. [React](https://facebook.github.io/react/index.html) is a JavaScript library for building user interfaces. A simplified way to look at React is that it can be used as the _View_ in a _Model-View-Controller_ application. It was created by Facebook and is being actively developed.
@@ -132,5 +130,5 @@ This [powerful tool](https://github.com/electrode-io/isomorphic-loader) makes No
 
 ---
 
-With `generator-electrode`, we've created a dynamic and performant full stack Electrode app in under five minutes, using some of our favorite technologies, like [React](https://facebook.github.io/react/index.html) and [Hapi](http://hapijs.com/). Let's explore and personalize this web application in our next section, [Intermediate: Create a Resuable Component](http://www.electrode.io/docs/create_reusable_component.html).
+With `generator-electrode`, we've created a dynamic and performant full stack Electrode app in under five minutes, using some of our favorite technologies, like [React](https://facebook.github.io/react/index.html) and [Hapi](http://hapijs.com/). Let's explore and personalize this web application in our next section, [Intermediate: Create a Resuable Component.](/chapter1/intermediate/create-a-reusable-component.md)
 

@@ -4,9 +4,9 @@
 
 Docker is a new container-based technology designed to make applications easier to create, deploy and run. It's an increasingly popular way to accelerate development and share content. To get started, sign up for a [Docker](https://cloud.docker.com/), download [Docker for your machine](https://www.docker.com/products/docker) and read over the corresponding system requirements. Docker requires a Linux machine; if you are using a Mac, you will need to follow the instructions based on your computer version to "[virtualize the Docker Engine environment](https://docs.docker.com/engine/installation/mac/#/docker-for-mac) and Linux kernel-specific features for the Docker daemon" using a virtual machine.
 
-After you install and run Docker on your machine, you will be asked to authorize`Docker.app`. Double-click `Docker.app` to start Docker. The Docker Whale icon in the top status bar will let you know that Docker is running.
+After you install and run Docker on your machine, you will be asked to authorize `Docker.app`. Double-click `Docker.app` to start Docker. The Docker Whale icon in the top status bar will let you know that Docker is running.
 
-On the first installation you'll get a `success` message. Click the Whale icon to go to `Preferences`. Select `About Docker` to verify you have the latest version.
+On the first installation you'll get a  `success` message. Click the Whale icon to go to `Preferences`. Select `About Docker`  to verify you have the latest version.
 
 Let's check the versions of `Docker Engine`, `Compose` and `Machine` by running the commands below:
 
@@ -42,9 +42,9 @@ Try the image in your docker container:
 $ docker run -d -p 3000:3000 electrode/electrode-io
 ```
 
-You'll see your`<container_id>`in the terminal.
+You'll see your `<container_id>` in the terminal.
 
-Verify that the server is running by opening`localhost:3000`in your browser.
+Verify that the server is running by opening `localhost:3000` in your browser.
 
 Copy the code from the container to your local machine for development:
 
@@ -70,7 +70,7 @@ Run the command below to see a list of the images you currently have:
 $ docker images
 ```
 
-You'll see `node` listed. Find the corresponding `IMAGE ID` for your `node` image. We will now build a command to properly tag the image. It'll be using your `image id` + `account name/repo-name:latest`
+You'll see `node` listed. Find the corresponding `IMAGE ID`  for your `node`  image. We will now build a command to properly tag the image. It'll be using your `image id` + `account name/repo-name:latest`
 
 ```
 $ docker tag your-image-id-# your-account-name/docker-awesome-container:latest
@@ -88,7 +88,7 @@ Run your image on your local container:
 $ docker run -d -p 3000:3000 docker-awesome-container
 ```
 
-Open`localhost:3000`in your browser to see your app.
+Open `localhost:3000` in your browser to see your app.
 
 Your container id will print in the terminal, or you can run the command below to see your containers:
 
@@ -114,5 +114,5 @@ Run the `push` command below to push your image to your new repo:
 $ docker push your-username/docker-awesome-container
 ```
 
-You have successfully pushed your new image to the Docker Cloud repository! From here, you can use the[User Guide](https://docs.docker.com/engine/userguide/intro/)to run your own containers and build Docker images.
+You have successfully pushed your new image to the Docker Cloud repository! From here, you can use the [User Guide](https://docs.docker.com/engine/userguide/intro/) to run your own containers and build Docker images.
 

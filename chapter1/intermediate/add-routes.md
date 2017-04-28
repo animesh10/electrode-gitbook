@@ -100,5 +100,5 @@ Home.propTypes = {
 };
 ```
 
-Navigate to [Intermediate: Server Config](http://www.electrode.io/docs/server_config.html) to learn about [Confippet](http://www.electrode.io/docs/confippet.html) and add our Hapi plugin to our server config.
+Navigate to [Intermediate: Server Config](/chapter1/intermediate/server-config.md) to learn about [Confippet](http://www.electrode.io/docs/confippet.html) and add our Hapi plugin to our server config.
 

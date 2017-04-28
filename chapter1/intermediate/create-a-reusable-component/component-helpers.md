@@ -70,4 +70,3 @@ In `src`, create a folder named `helpers` with a file named `graph-styles.js` in
 
 
 
-

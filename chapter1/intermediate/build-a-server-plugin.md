@@ -14,9 +14,9 @@ GitHub has [great documentation](https://developer.github.com/v3/) and awesome l
 $ npm install github
 ```
 
-At their core, plugins are a simple`register object`that has the signature`function (server, options, next)`. Read more about building plugins from scratch in the [Hapi documentation](http://hapijs.com/tutorials/plugins).
+At their core, plugins are a simple `register object` that has the signature `function (server, options, next)`. Read more about building plugins from scratch in the [Hapi documentation](http://hapijs.com/tutorials/plugins).
 
-Navigate to the `<your-awesome-app>/src/server/plugins` folder. Make a folder called `friends`, `cd` into your new `friends` folder, and create an empty `index.js` file:
+Navigate to the  `<your-awesome-app>/src/server/plugins`  folder. Make a folder called `friends`, `cd` into your new `friends` folder, and create an empty `index.js`  file:
 
 ```
 $ touch index.js
@@ -103,11 +103,13 @@ exports.register.attributes = {
 };
 ```
 
-If you plan on building out Your Awesome App even further, you'll need to \[generate a GitHub Api oAuth token\] to remove the preset limit for API requests. We have already added the code to accept and use the token in our Hapi server plugin above`const AUTH_TOKEN = process.env.token`.
+If you plan on building out Your Awesome App even further, you'll need to \[generate a GitHub Api oAuth token\] to remove the preset limit for API requests. We have already added the code to accept and use the token in our Hapi server plugin above `const AUTH_TOKEN = process.env.token`.
 
-Set a new[personal access token](http://www.electrode.io/docs/you%20may%20be%20prompted%20to%20login%20to%20your%20GitHub%0Aaccount%20if%20you%20haven't%20already), create your`token description`in the form given, and for`Select scopes`simply check`public repo`. Then hit the green`Generate token`button.
+Set a new \[personal access token\]\([http://www.electrode.io/docs/you may be prompted to login to your GitHub  
+account if you haven't already](http://www.electrode.io/docs/you may be prompted to login to your GitHub
+account if you haven't already)\), create your `token description` in the form given, and for `Select scopes` simply check `public repo`. Then hit the green `Generate token`button.
 
-You will be redirected to the next page to retrieve your token. Keep your token private and secure; do not copy and paste it directly into your app. Instead, we will set your token as a Node[environment variable](https://nodejs.org/api/process.html#process_process_env). Copy and save this token in a secure place; we will use it several times. Use this token in your command line as follows:
+You will be redirected to the next page to retrieve your token. Keep your token private and secure; do not copy and paste it directly into your app. Instead, we will set your token as a Node [environment variable](https://nodejs.org/api/process.html#process_process_env). Copy and save this token in a secure place; we will use it several times. Use this token in your command line as follows:
 
 Set the token locally:
 
@@ -121,5 +123,5 @@ Set your token for heroku deployment:
 heroku config:set token='your-token-here'
 ```
 
-A great tool for testing your server requests is [Postman](https://www.getpostman.com/). Its user interface for viewing response objects and errors is incredible. For now, you will have to trust us as we build out Your Awesome App. Navigate to [Intermediate: Add Routes](http://www.electrode.io/docs/add_routes.html), to add routing to the app and extend our UI to display our contributor array.
+A great tool for testing your server requests is [Postman](https://www.getpostman.com/). Its user interface for viewing response objects and errors is incredible. For now, you will have to trust us as we build out Your Awesome App. Navigate to [Intermediate: Add Routes](/chapter1/intermediate/add-routes.md), to add routing to the app and extend our UI to display our contributor array.
 

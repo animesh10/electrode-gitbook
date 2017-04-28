@@ -25,7 +25,7 @@ Create a file named `<your-awesome-component>/demo/examples/guest-list.example`.
 />
 ```
 
-Navigate to `<your-awesome-component>/demo/examples/your-awesome-component.example`. Add the code below. Don't forget to change the references from the literal `YourAwesomeComponent` to your actual component name:
+Navigate to `<your-awesome-component>/demo/examples/your-awesome-component.example`. Add the code below. Don't forget to change the references from the literal `YourAwesomeComponent`  to your actual component name:
 
 ```
 <YourAwesomeComponent
@@ -52,7 +52,7 @@ Navigate to `<your-awesome-component>/demo/examples/your-awesome-component.examp
 />
 ```
 
-Now Navigate to `<your-awesome-component>/demo/demo.jsx`. Modify `const components` to include your demo examples:
+Now Navigate to `<your-awesome-component>/demo/demo.jsx`. Modify `const components`  to include your demo examples:
 
 ```
 const components = [

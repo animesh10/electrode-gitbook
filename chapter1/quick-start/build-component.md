@@ -6,7 +6,7 @@ After you've generated your awesome electrode app, you are ready to focus on wri
 
 Navigate to `<your-awesome-app>/src/client/components/home.jsx`:
 
-```
+```js
 import React, {PropTypes} from "react";
 import {connect} from "react-redux";
 import {toggleCheck, incNumber, decNumber} from "../actions";
@@ -63,7 +63,7 @@ const mapDispatchToProps = (dispatch) => {
 export default connect(mapStateToProps, mapDispatchToProps)(Home);
 ```
 
-We'll need a place to keep all of the resources we learned in the [Get Started](http://www.electrode.io/docs/get_started.html) section. Let's make a visual library for our present stack and exciting technologies! Copy the code below and paste it into
+We'll need a place to keep all of the resources we learned in the [Get Started](/chapter1/quick-start/get-started.md) section. Let's make a visual library for our present stack and exciting technologies! Copy the code below and paste it into
 
 `<your-awesome-app> /src/client/components/home.jsx`:
 
@@ -187,5 +187,5 @@ Navigate to [https://localhost:3000](https://localhost:3000]/).
 
 ![](http://i.imgur.com/nwEl64l.png)
 
-Now let's jump to our next step, where we will deploy Your Awesome App to [Heroku](http://www.electrode.io/docs/deploy_app.html).
+Now let's jump to our next step, where we will deploy Your Awesome App to [Heroku](/chapter1/quick-start/deploy-your-app.md).
 

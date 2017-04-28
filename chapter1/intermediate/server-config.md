@@ -11,9 +11,9 @@ config
     └── production.json
 ```
 
-We'll need to extend our default.json to include our`friends`plugin and module`./src/server/plugins/friends`.
+We'll need to extend our default.json to include our `friends` plugin and module `./src/server/plugins/friends`.
 
-Navigate to`<your-awesome-app>/config/development.json`. Copy, paste and save`friends`plugin:
+Navigate to `<your-awesome-app>/config/development.json`. Copy, paste and save `friends` plugin:
 
 ```
 {
@@ -72,14 +72,14 @@ $ gulp check
 $ token='your-token-here' gulp hot
 ```
 
-Navigate to`localhost:3000`. Check it out! This is the`Index route`which renders our`Home component`using Server Side Rendering:
+Navigate to  `localhost:3000`. Check it out! This is the `Index route` which renders our `Home component` using Server Side Rendering:
 
 ![](http://www.electrode.io/img/app-home-view.png)  
 When you click the  `Click Here to Make it a Party`  link, Your Awesome App routes to the `/invite`  route, which renders the guest list component.
 
 ![](http://www.electrode.io/img/app-guest-list-view.png)
 
-By checking the guest list, you are setting the invitee object's key to`{invited: true}`, which tells`renderFriends`to render.
+By checking the guest list, you are setting the invitee object's key to `{invited: true}`, which tells `renderFriends` to render.
 
 When all of our guests are invited to the House Party, our CSS modules kick in and launch an Electrode House Party!
 
@@ -87,7 +87,7 @@ When all of our guests are invited to the House Party, our CSS modules kick in a
 
 Feel free to add your own personal touch and build out your Resource List House Party. You can compare your work to our [Heroku deployed example app](https://electrode-example-app.herokuapp.com/).
 
-When you're ready, you can deploy Your Awesome App to [Heroku](https://devcenter.heroku.com/categories/deployment) by following the previous steps in our [Getting Started: Build More](http://www.electrode.io/docs/build_component.html) section. If you choose this step, make sure you set all of the Heroku configurations, including the one for our [GitHub Api](http://www.electrode.io/docs/build_server_plugin.).
+When you're ready, you can deploy Your Awesome App to [Heroku](https://devcenter.heroku.com/categories/deployment) by following the previous steps in our [Getting Started: Build More](/chapter1/quick-start/build-component.md) section. If you choose this step, make sure you set all of the Heroku configurations, including the one for our [GitHub Api](/chapter1/intermediate/build-a-server-plugin.md).
 
-You can also navigate to [Intermediate: More Deployments](http://www.electrode.io/docs/more_deployments.html) to learn how to deploy with [Docker](http://www.electrode.io/docs/docker.html) and [Kubernetes](http://www.electrode.io/docs/kubernetes.html).
+You can also navigate to [Intermediate: More Deployments](/chapter1/intermediate/more-deployments.md) to learn how to deploy with [Docker](/chapter1/intermediate/more-deployments/docker.md) and [Kubernetes](/chapter1/intermediate/more-deployments/kubernetes.md).
 
