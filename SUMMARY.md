@@ -41,4 +41,6 @@
     * [Powerful Electrode Tools](chapter1/advanced/powerful-electrode-tools.md)
       * [Electrify](chapter1/advanced/powerful-electrode-tools/electrify.md)
       * [Electrode Explorer](chapter1/advanced/powerful-electrode-tools/electrode-explorer.md)
+      * [Bundle Analyzer](chapter1/advanced/powerful-electrode-tools/bundle-analyzer.md)
+    * [Electrode Boilerplate](chapter1/advanced/you-can-view-an-example-bundleanalyzetsv-output-using-the-electrode-boilerplate-code.md)
 

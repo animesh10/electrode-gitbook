@@ -1,6 +1,6 @@
 # Electrode Explorer
 
-> An [electrode application](https://github.com/electrode-io/electrode-explorer) that allows you to view all the components in your organization, play with the components, read the component docs, view the different versions of the component, and more - All in your browser. 
+> An [electrode application](https://github.com/electrode-io/electrode-explorer) that allows you to view all the components in your organization, play with the components, read the component docs, view the different versions of the component, and more - All in your browser.
 >
 > [View The Live Demo](https://electrode-explorer.herokuapp.com/)
 
@@ -131,7 +131,7 @@ GHACCESS_TOKEN=YOUR_GITHUB_TOKEN NODE_ENV=production node .
 
 ## Deploy
 
-Since this is an Electrode application, it can be deployed the same way as any other Electrode app. You can use [Heroku](http://www.electrode.io/docs/deploy.html) by following the steps in our Quick Start or use the [More Deployments](http://www.electrode.io/docs/more_deployments.html)as a resource.
+Since this is an Electrode application, it can be deployed the same way as any other Electrode app. You can use [Heroku](http://www.electrode.io/docs/deploy.html) by following the steps in our Quick Start or use the [More Deployments](http://www.electrode.io/docs/more_deployments.html) as a resource.
 
 \*Just remember to set your GitHub token as an environment variable.
 
