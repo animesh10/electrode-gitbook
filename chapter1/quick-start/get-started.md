@@ -30,7 +30,7 @@ $ cd electrode-app-dir
 $ yo electrode
 ```
 
-Fill out the Electrode App generator with your information, take \`your-awesome-app\` as an example of your Application Name:
+Fill out the Electrode App generator with your information, take `your-awesome-app` as an example of your Application Name:
 
 ![](http://www.electrode.io/img/generator-application.png)
 

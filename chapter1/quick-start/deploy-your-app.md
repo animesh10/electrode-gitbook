@@ -12,7 +12,7 @@ $ git push -u origin master
 
 Navigate to the [Heroku site](https://signup.heroku.com/dc) and set up a free account. This will help streamline our deployment process \(we will do this several times\).
 
-Next, let's quickly deploy `your-awesome-app` from the command line. \[Click here\]\([https://devcenter.heroku.com/articles/getting-started-with-nodejs\#set-up](https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up)"\) to download and install the Heroku CLI for your machine.
+Next, let's quickly deploy `your-awesome-app` from the command line. Click [here](https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up) to download and install the Heroku CLI for your machine.
 
 When you are finished installing, log in using the email address and password you used when creating your Heroku account.
 
@@ -27,9 +27,9 @@ Email: your-example-email@walmartlabs.com
 Password:
 ```
 
-You should see a terminal message`Logged in as your-example-email@your-email-provider.com`. Now, let's deploy!
+You should see a terminal message `Logged in as your-example-email@your-email-provider.com` . Now, let's deploy!
 
-You'll need to specify the [version of node](https://devcenter.heroku.com/articles/node-best-practices) and npm you are using on your machine into our `package.json`. Add the code below to your `package.json`. Make sure to change `"node": "4.2.x"`, and `"npm": 3.10.x` to your actual node and npm version. To find out what versions you have, run `node -v` and`npm -v` in the command line
+You'll need to specify the [version of node](https://devcenter.heroku.com/articles/node-best-practices) and npm you are using on your machine into our `package.json`. Add the code below to your `package.json`. Make sure to change `"node": "4.2.x"`, and `"npm": 3.10.x` to your actual node and npm version. To find out what versions you have, run `node -v` and `npm -v` in the command line
 
 ```
 "engines": {
@@ -98,7 +98,7 @@ $ git add .
 $ git commit -m "Updates package.json with node version"
 ```
 
-Create an app on Heroku \(which prepares Heroku to receive your source code\). This will also create a git remote called `heroku`and generate a random name:
+Create an app on Heroku \(which prepares Heroku to receive your source code\). This will also create a git remote called `heroku` and generate a random name:
 
 ```
 $ heroku create
@@ -134,5 +134,5 @@ Visit the app at the generated URL by using this command:
 $ heroku open
 ```
 
-And...you did it! [Click here](https://first-electrode-example-app.herokuapp.com/) for our deployed Heroku version. We will build even more in our [Getting Started: Intermediate](/chapter1/Intermediate.md) and cover complex topics like routing, server plugins and other powerful deployment software.
+And...you did it! Click [here](https://first-electrode-example-app.herokuapp.com/) for our deployed Heroku version. We will build even more in our [Getting Started: Intermediate](/chapter1/Intermediate.md) and cover complex topics like routing, server plugins and other powerful deployment software.
 

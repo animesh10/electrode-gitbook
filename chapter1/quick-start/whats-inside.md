@@ -24,7 +24,7 @@ import { routes } from "./routes";
 import { Router } from "react-router";
 ```
 
-Any real world web application needs to be able to handle different routes serving different content, so how do we handle the concept of routing in the Electrode platform? The library chosen to take care of this for us is [react-router](https://github.com/reactjs/react-router/tree/master/docs).
+Any real world web application needs to be able to handle different routes serving different content, so how do we handle the concept of routing in the Electrode platform? The library chosen to take care of this for us is [react-router](https://github.com/ReactTraining/react-router).
 
 Why react-router? The project is mature, well-documented, and integrates well within the Electrode tech stack.
 
@@ -61,7 +61,7 @@ We will be sharing our routes between server and client, so obviously we only wa
 
 > &lt;your-awesome-app&gt;/config
 
-In this folder we are leveraging one of our most important stand alone modules: [Electrode-Confippet](http://www.electrode.io/docs/confippet.html). Confippet is a versatile utility for managing your NodeJS application configuration. Its goal is customization and extensibility while offering a [preset configuration](https://github.com/electrode-io/electrode-confippet) out of the box.
+In this folder we are leveraging one of our most important stand alone modules: [Electrode-Confippet](/chapter1/advanced/stand-alone-modules/confippet.md). Confippet is a versatile utility for managing your NodeJS application configuration. Its goal is customization and extensibility while offering a [preset configuration](https://github.com/electrode-io/electrode-confippet) out of the box.
 
 ```
 config
@@ -130,5 +130,5 @@ This [powerful tool](https://github.com/electrode-io/isomorphic-loader) makes No
 
 ---
 
-With `generator-electrode`, we've created a dynamic and performant full stack Electrode app in under five minutes, using some of our favorite technologies, like [React](https://facebook.github.io/react/index.html) and [Hapi](http://hapijs.com/). Let's explore and personalize this web application in our next section, [Intermediate: Create a Resuable Component.](/chapter1/intermediate/create-a-reusable-component.md)
+With `generator-electrode`, we've created a dynamic and performant full stack Electrode app in under five minutes, using some of our favorite technologies, like [React](https://www.gitbook.com/book/electrode/electrode/edit#) and [Hapi](https://www.gitbook.com/book/electrode/electrode/edit#). Let's explore and personalize this web application in our next section, [Intermediate: Create a Resuable Component.](https://www.gitbook.com/book/electrode/electrode/edit#)
 
