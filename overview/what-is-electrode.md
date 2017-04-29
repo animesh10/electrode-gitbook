@@ -14,9 +14,9 @@ The heart of the Electrode platform is managed by the [Electrode Archetype Syste
 
 ### Stand Alone Modules: Optimize Where You Want
 
-The Electrode platform uses several modules to help with a variety of common tasks from [server-side render caching](http://www.electrode.io/docs/server_side_render_cache.html) to [flexible configuration management](http://www.electrode.io/docs/confippet.html). These modules can be used independently of Electrode Core, which means you can [integrate them into your existing apps](http://www.electrode.io/docs/stand_alone_modules.html).
+The Electrode platform uses several modules to help with a variety of common tasks from [server-side render caching](/chapter1/advanced/stand-alone-modules/server-side-render-caching-+-profiling.md) to[ flexible configuration management](/chapter1/advanced/stand-alone-modules/confippet.md). These modules can be used independently of Electrode Core, which means you can [integrate them into your existing apps](/chapter1/advanced/stand-alone-modules.md).
 
-**Start using these modules in your existing application with our **[**guide**](http://www.electrode.io/docs/stand_alone_modules.html)**.**
+**Start using these modules in your existing application with our **[**guide**](/chapter1/advanced/stand-alone-modules.md)**.**
 
 ---
 
@@ -24,11 +24,11 @@ The Electrode platform uses several modules to help with a variety of common tas
 
 The Electrode Platform also has tools that can be consumed by existing applications built with other platforms \(though with Electrode core, these tools are either bundled directly or require far less configuration\). There are currently two powerful tools:
 
-* one which enables [discovery of reusable components](http://www.electrode.io/docs/electrode_explorer.html)
+* one which enables [discovery of reusable components](/chapter1/advanced/powerful-electrode-tools/electrode-explorer.md)
 
-* another to help optimize your [JavaScript bundles](http://www.electrode.io/docs/electrify.html)
+* another to help optimize your [JavaScript bundles](/chapter1/advanced/powerful-electrode-tools/electrify.md)
 
-**Start using **[**Electrode Explorer**](http://www.electrode.io/docs/electrode_explorer.html) **and **[**Electrify**](http://www.electrode.io/docs/electrify.html) **in your existing applications.**
+**Start using **[**Electrode Explorer** ](/chapter1/advanced/powerful-electrode-tools/electrode-explorer.md)**and **[**Electrify**](/chapter1/advanced/powerful-electrode-tools/electrify.md) **in your existing applications.**
 
 ## Features {#features}
 
