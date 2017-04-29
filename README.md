@@ -62,7 +62,7 @@ See its [README](samples/universal-material-ui/README.md) for more details.
 
 We have more separate Electrode Sample Apps at https://github.com/electrode-samples that you can use as references.
 
-Built with :heart: by [Team Electrode] @WalmartLabs.
+Built with ♡ by [Team Electrode] @WalmartLabs.
 
 [Team Electrode]: https://github.com/orgs/electrode-io/people
 [Announcement Blog]: https://medium.com/walmartlabs/introducing-electrode-an-open-source-release-from-walmartlabs-14b836135319#.pwbddxg1z
