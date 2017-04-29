@@ -30,9 +30,9 @@ To solve these problems, we created the Electrode platform. Electrode consists o
 
 **Electrode Core **provides a set of modules that get you started with a simple, consistent structure that follows modern best practices. When you're ready to take your app into production, Electrode automatically deploys to your favorite cloud provider.
 
-**Electrode Modules **improve performance, efficiency, and security by adding features like [above the fold rendering](http://www.electrode.io/docs/above_fold_rendering.html), [configuration management](http://www.electrode.io/docs/confippet.html), and [cross-site request forgery protection](http://www.electrode.io/docs/stateless_csrf_validation.html). These modules can even be used with your existing React/Node.js application—so there's no need to migrate to Electrode Core.
+**Electrode Modules **improve performance, efficiency, and security by adding features like [above the fold rendering](/chapter1/advanced/stand-alone-modules/above-the-fold-rendering.md), [configuration management](/chapter1/advanced/stand-alone-modules/confippet.md), and [cross-site request forgery protection](/chapter1/advanced/stand-alone-modules/stateless-csrf-validation.md). These modules can even be used with your existing React/Node.js application—so there's no need to migrate to Electrode Core.
 
-**Electrode Tools **help [organize](http://www.electrode.io/docs/electrode_explorer.html) reusable components and [optimize large JavaScript bundles](http://www.electrode.io/docs/electrify.html). Like the modules, our tools can be used with any React/Node.js app.
+**Electrode Tools **help [organize](/chapter1/advanced/powerful-electrode-tools/electrode-explorer.md) reusable components and [optimize large JavaScript bundles](/chapter1/advanced/powerful-electrode-tools/electrify.md). Like the modules, our tools can be used with any React/Node.js app.
 
 ### Future Investment
 
