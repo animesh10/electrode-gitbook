@@ -45,4 +45,11 @@
     * [Electrode Boilerplate](chapter1/advanced/you-can-view-an-example-bundleanalyzetsv-output-using-the-electrode-boilerplate-code.md)
   * [Over the air](chapter1/over-the-air.md)
     * [React Native and Over the Air](chapter1/over-the-air/react-native-and-over-the-air.md)
+* [Contributing](contributing.md)
+  * [Contribute](contribute.md)
+  * [Community](community.md)
+* [Resources](resources.md)
+  * [Further Reading](resources/further-reading.md)
+  * [Glossary](resources/glossary.md)
+  * [FAQs](resources/faqs.md)
 
