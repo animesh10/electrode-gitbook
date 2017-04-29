@@ -27,7 +27,7 @@ Navigate to `<your-awesome-app>/config/development.json`. Copy, paste and save `
 
 You can learn more about Confippet and ways to extend your config in our Advanced Electrode App with the [Confippet](https://github.com/electrode-io/electrode-confippet) stand alone module.
 
-We should update our app test to reflect the changes we have made. Navigate to`<your-awesome-app>/test/client/components/home.spec.jsx`. Override the existing code by copying and pasting the code below:
+We should update our app test to reflect the changes we have made. Navigate to `<your-awesome-app>/test/client/components/home.spec.jsx`. Override the existing code by copying and pasting the code below:
 
 ```
 require("isomorphic-fetch");
