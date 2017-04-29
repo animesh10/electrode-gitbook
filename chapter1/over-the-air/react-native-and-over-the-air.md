@@ -161,9 +161,7 @@ After you have registered if you've logged out you may need to log back in, or y
 
 #### Server Token
 
-Your server token page should look like this.
-
-![](http://www.electrode.io/img/electrode-ota/NewToken.png)
+Your server token page should look like this.![](http://www.electrode.io/img/electrode-ota/NewToken.png)
 
 #### Creating a CodePushDeploymentKey
 
@@ -181,9 +179,7 @@ If you you need an Example application you can find one[here](https://github.com
 
 ### For IOS
 
-Then add the following to`ios/<%=your_app_name%>/Info.plist`. You can open this in`sh open ios/<%=your_app_name%>.xcodeprog`to edit.
-
-![](http://www.electrode.io/img/electrode-ota/Info-plist.png)Or using your favorite text editor.`xml <key>CodePushDeploymentKey</key><string><%=your_deployment_key%></string><key>CodePushServerURL</key><string>http://<%=your_ota_server%></string>`If your OTA server is not running over https you will need to add an exception to it in the`ios/<%=your_app_name%>/Info.plist`, or you use Xcode to update the file.`xml <dict><key>NSAllowsArbitraryLoads</key><true/><key>NSExceptionDomains</key><dict><key><%=your_ota_server%></key><dict><key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key><true/></dict></dict></dict>`
+Then add the following to`ios/<%=your_app_name%>/Info.plist`. You can open this in`sh open ios/<%=your_app_name%>.xcodeprog`to edit.![](http://www.electrode.io/img/electrode-ota/Info-plist.png)Or using your favorite text editor.`xml <key>CodePushDeploymentKey</key><string><%=your_deployment_key%></string><key>CodePushServerURL</key><string>http://<%=your_ota_server%></string>`If your OTA server is not running over https you will need to add an exception to it in the`ios/<%=your_app_name%>/Info.plist`, or you use Xcode to update the file.`xml <dict><key>NSAllowsArbitraryLoads</key><true/><key>NSExceptionDomains</key><dict><key><%=your_ota_server%></key><dict><key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key><true/></dict></dict></dict>`
 
 ### For Android
 
@@ -219,15 +215,25 @@ Copy of the ElectrodeOTA icon to the Applications folder
 
 ### Logging in
 
-Use the token from the pretty screen with the trees on it here. The host would be your OTA Server.
-
-![](http://www.electrode.io/img/electrode-ota/Login.png)
+Use the token from the pretty screen with the trees on it here. The host would be your OTA Server.![](http://www.electrode.io/img/electrode-ota/Login.png)
 
 ### Creating a New App to Manage
 
-You will need an app to get the deployment keys.
+You will need an app to get the deployment keys.![](http://www.electrode.io/img/electrode-ota/GettingStarted.png)![](http://www.electrode.io/img/electrode-ota/NewAppSuccess.png)
 
-![](http://www.electrode.io/img/electrode-ota/GettingStarted.png)
+### Creating a New Deployment
 
-![](http://www.electrode.io/img/electrode-ota/NewAppSuccess.png)
+You can use Staging and Development or create your own, for your workflow.![](http://www.electrode.io/img/electrode-ota/NewDeployment.png)![](http://www.electrode.io/img/electrode-ota/NewDeployment1.png)
+
+### Adding a New Release
+
+To Upload a new release select the deployment and click release.![](http://www.electrode.io/img/electrode-ota/Releases.png)
+
+### Adding Collaborators
+
+If you need to share responsibility you can add collaborator. However they will need to register [see](http://www.electrode.io/docs/electrode_react_native_over_the_air_electron.html#user-content-register) first to be able to add them to your App.![](http://www.electrode.io/img/electrode-ota/Collaborate.png)
+
+### New Key
+
+If you loose key, or want one for you CI server you can manage them here.![](http://www.electrode.io/img/electrode-ota/AddKey.png)![](http://www.electrode.io/img/electrode-ota/NewKey.png)
 
