@@ -78,7 +78,7 @@ The Electrode Platform also has tools that can be consumed by existing applicati
 
 * [Electrify](https://github.com/electrode-io/electrify) - a tool for analyzing the module tree of webpack projects.
 
-* [Electrode-Docgen](https://github.com/electrode-io/electrode-docgen) - a custom metadata extractor for the Electrode framework, automates component documentation. mentation.
+* [Electrode-Docgen](https://github.com/electrode-io/electrode-docgen) - a custom metadata extractor for the Electrode framework, automates component documentation. 
 
 
 
