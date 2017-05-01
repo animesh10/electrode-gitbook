@@ -2,11 +2,7 @@
 
 ### Deploy with Docker
 
-Docker is a new container-based technology designed to make applications easier to create, deploy and run. It's an increasingly popular way to accelerate development and share content. To get started, sign up for a [Docker](https://cloud.docker.com/), download [Docker for your machine](https://www.docker.com/products/docker) and read over the corresponding system requirements. Docker requires a Linux machine; if you are using a Mac, you will need to follow the instructions based on your computer version to "[virtualize the Docker Engine environment](https://docs.docker.com/engine/installation/mac/#/docker-for-mac) and Linux kernel-specific features for the Docker daemon" using a virtual machine.
-
-After you install and run Docker on your machine, you will be asked to authorize `Docker.app`. Double-click `Docker.app` to start Docker. The Docker Whale icon in the top status bar will let you know that Docker is running.
-
-On the first installation you'll get a  `success` message. Click the Whale icon to go to `Preferences`. Select `About Docker`  to verify you have the latest version.
+Docker is a new container-based technology designed to make applications easier to create, deploy and run. It's an increasingly popular way to accelerate development and share content. To get started, sign up for [Docker](https://cloud.docker.com/), download [Docker for your machine](https://www.docker.com/products/docker) and read over the corresponding system requirements. Docker is available for all major operating systems. See the corresponding "Get Started Tutorial" for your OS version on the Docker product page.
 
 Let's check the versions of `Docker Engine`, `Compose` and `Machine` by running the commands below:
 
