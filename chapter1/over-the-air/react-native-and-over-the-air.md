@@ -58,7 +58,7 @@ Step 4 - Wild celebration, or double check that everthing is correct. This is yo
 
 ### Configure OTA Server
 
-Inside the config create a`config/production.json`. You must configure at one environment. You can create different settings for production,test and development, by creating seperate json files for each environment.
+Inside the config create a `config/production.json`. You must configure at one environment. You can create different settings for production,test and development, by creating seperate json files for each environment.
 
 In production please use TLS/HTTPS for the server.Setting TLS is outside the scope of this document.
 
@@ -153,11 +153,11 @@ If want to manage your OTA Server via command line. You can follow these directi
 
 #### Register
 
-You only need/can register once per github account. So the first time each user would need to:`sh $ code-push register https://<%=your_ota_server%>`
+You only need/can register once per github account. So the first time each user would need to: `sh $ code-push register https://<%=your_ota_server%>`
 
 #### Login
 
-After you have registered if you've logged out you may need to log back in, or your acccess-key is lost or expired you can log back in.`sh $ code-push login https://<%=your_ota_server%>`
+After you have registered if you've logged out you may need to log back in, or your acccess-key is lost or expired you can log back in. `sh $ code-push login https://<%=your_ota_server%>`
 
 #### Server Token
 
@@ -169,7 +169,23 @@ Your server token page should look like this.![](http://www.electrode.io/img/ele
 $ code-push app add <%=YourAppName%>
 ```
 
-Should result in something like`sh Successfully added the "YourAppName" app, along with the following default deployments: ┌────────────┬───────────────────────────────────────┐ │ Name │ Deployment Key │ ├────────────┼───────────────────────────────────────┤ │ Production │ 4ANCANCASDASDKASASDASDASDASDASDASDAS- │ ├────────────┼───────────────────────────────────────┤ │ Staging │ ASDASDASDASDASDASDASDASDASDASDASDASD- │ └────────────┴───────────────────────────────────────┘`These are your deployment keys. You will need them in the next step.
+Should result in something like
+
+`sh Successfully added the "YourAppName" app, along with the following default deployments: `
+
+`┌────────────┬───────────────────────────────────────┐ │ Name │ Deployment Key │ `
+
+`├────────────┼───────────────────────────────────────┤ │ Production │ `
+
+`4ANCANCASDASDKASASDASDASDASDASDASDAS- │ `
+
+`├────────────┼───────────────────────────────────────┤ │ Staging │ `
+
+`ASDASDASDASDASDASDASDASDASDASDASDASD- │ `
+
+`└────────────┴───────────────────────────────────────┘`
+
+These are your deployment keys. You will need them in the next step.
 
 ## Changes to Your Application.
 
