@@ -12,12 +12,8 @@
 
 ## Prerequisites
 
-* node: "
-  &gt;
-  =4.2.0"
-* npm: "
-  &gt;
-  =3.0.0"
+* node: "&gt;=4.2.0"
+* npm: "&gt;=3.0.0"
 * Github access token
 
 ## Overview
@@ -131,7 +127,7 @@ GHACCESS_TOKEN=YOUR_GITHUB_TOKEN NODE_ENV=production node .
 
 ## Deploy
 
-Since this is an Electrode application, it can be deployed the same way as any other Electrode app. You can use [Heroku](http://www.electrode.io/docs/deploy.html) by following the steps in our Quick Start or use the [More Deployments](http://www.electrode.io/docs/more_deployments.html) as a resource.
+Since this is an Electrode application, it can be deployed the same way as any other Electrode app. You can use [Heroku](/chapter1/quick-start/deploy-your-app.md) by following the steps in our Quick Start or use the [More Deployments](/chapter1/intermediate/more-deployments.md) as a resource.
 
 \*Just remember to set your GitHub token as an environment variable.
 
