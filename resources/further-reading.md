@@ -14,9 +14,9 @@
 
 * [Thinking in React](https://facebook.github.io/react/docs/thinking-in-react.html)+[Design Principles](https://facebook.github.io/react/contributing/design-principles.html)- Read the React docs.
 
-* [Building React.js at Enterprise Scale](https://medium.com/walmartlabs/building-react-js-at-enterprise-scale-17c17a36fd1f#.ewkzubo8i)- Why ReactJS +[WalmartLabs](http://www.walmartlabs.com/)are a perfect match.
+* [Building React.js at Enterprise Scale](https://medium.com/walmartlabs/building-react-js-at-enterprise-scale-17c17a36fd1f#.ewkzubo8i)- Why ReactJS + [WalmartLabs](http://www.walmartlabs.com/) are a perfect match.
 
-* [Presentational and Container Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0#.ma6icgu8p)A simple, but critical pattern for your React applications.
+* [Presentational and Container Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0#.ma6icgu8p)- A simple, but critical pattern for your React applications.
 
 #### Redux
 
@@ -28,7 +28,7 @@
 
 #### Universal Rendering
 
-* [ReactJS SSR Profiling + Caching](https://medium.com/walmartlabs/reactjs-ssr-profiling-and-caching-5d8e9e49240c#.yqnmwbp6t)- Outlines the[WalmartLabs](http://www.walmartlabs.com/)Server Side Rendering challenges + ways to solve this.
+* [ReactJS SSR Profiling + Caching](https://medium.com/walmartlabs/reactjs-ssr-profiling-and-caching-5d8e9e49240c#.yqnmwbp6t)- Outlines the [WalmartLabs](http://www.walmartlabs.com/) Server Side Rendering challenges + ways to solve this.
 
 * [Server-Side Rendering With React, Node And Express](https://www.smashingmagazine.com/2016/03/server-side-rendering-react-node-express/)- A fast and clear explanation about the general advantages of SSR.
 
@@ -36,13 +36,13 @@
 
 * [How to Deploy Software](https://zachholman.com/posts/deploying-software)- Why the deployment process is complex, can be painful, and the solutions.
 
-* [Enterprise NodeJS On OneOps](https://medium.com/walmartlabs/enterprise-nodejs-on-oneops-f4bc7b1050cc#.sfsslnetq)- An overview of Node.js on WalmartLabs open-source deployment platform[OneOps](http://www.oneops.com/).
+* [Enterprise NodeJS On OneOps](https://medium.com/walmartlabs/enterprise-nodejs-on-oneops-f4bc7b1050cc#.sfsslnetq)- An overview of Node.js on WalmartLabs open-source deployment platform [OneOps](http://www.oneops.com/).
 
 #### Testing
 
 * [Approaches to testing React components - an overview](http://reactkungfu.com/2015/07/approaches-to-testing-react-components-an-overview/)- A general overview to React testing with pros + cons.
 
-* [Mocha.js: Simple, Flexible Fun](https://mochajs.org/)The Mocha docs, helping to make sense of asynchronous testing.
+* [Mocha.js: Simple, Flexible Fun](https://mochajs.org/)- The Mocha docs, helping to make sense of asynchronous testing.
 
 * [Enzyme: JavaScript Testing utilities for React](https://medium.com/airbnb-engineering/enzyme-javascript-testing-utilities-for-react-a417e5e5090f#.eo79bodrj)- An overview of Enzyme with code examples.
 
