@@ -17,7 +17,7 @@
 * **Platform Agnostic**
   * This module is platform agnostic and can be plugged into any Node.js application, including those run on Electrode, Express.js and Hapi.js
 
-## Module:[electrode-confippet](https://github.com/electrode-io/electrode-confippet)
+## Module: [electrode-confippet](https://github.com/electrode-io/electrode-confippet)
 
 ### Install via `npm`
 

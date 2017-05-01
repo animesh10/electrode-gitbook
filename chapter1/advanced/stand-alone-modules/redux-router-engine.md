@@ -4,7 +4,7 @@ Electrode Redux Router Engine is a tool that handles async data for React Server
 
 ## Module: [electrode-redux-router-engine](https://github.com/electrode-io/electrode-redux-router-engine)
 
-### Install via`npm`
+### Install via `npm`
 
 ```
 $ npm install --save electrode-redux-router-engine
@@ -61,7 +61,7 @@ export default function configureStore(initialState) {
 }
 ```
 
-Now let's create the redux store using the configure function from above. This pattern creates the store in a _server-side component _and initializes it with a promise library \(the example below uses [bluebird](https://github.com/petkaantonov/bluebird/)\):
+Now let's create the redux store using the configure function from above. This pattern creates the store in a \_server-side component \_and initializes it with a promise library \(the example below uses [bluebird](https://github.com/petkaantonov/bluebird/)\):
 
 ```
 import configureStore from "./configureStore";
@@ -78,15 +78,15 @@ export default function createReduxStore(req) {
 }
 ```
 
-For more information about the pattern used here, you can read about[using Async Actions in Redux](http://redux.js.org/docs/advanced/AsyncActions.html).
+For more information about the pattern used here, you can read about [using Async Actions in Redux](http://redux.js.org/docs/advanced/AsyncActions.html).
 
 #### Redux Router Engine
 
-The `ReduxRouterEngine` is created using both the `Redux Store` and the`routes.jsx` component, each passed as key/value pairs to an options object. The module is stand-alone and can be used in **any **Redux application that runs on Express, Hapi or [WalmartLab's Electrode framework](http://www.electrode.io/). Here's how to configure the engine depending on your framework:
+The `ReduxRouterEngine`  is created using both the `Redux Store` and the `routes.jsx` component, each passed as key/value pairs to an options object. The module is stand-alone and can be used in **any **Redux application that runs on Express, Hapi or [WalmartLab's Electrode framework](http://www.electrode.io/). Here's how to configure the engine depending on your framework:
 
 **Electrode**
 
-In an Electrode app, the engine configuration is straightforward: the route handling logic simply returns the output of the engine's `render`function in the `module.exports` clause:
+In an Electrode app, the engine configuration is straightforward: the route handling logic simply returns the output of the engine's `render` function in the `module.exports` clause:
 
 ```
 import ReduxRouterEngine from "electrode-redux-router-engine";
@@ -133,7 +133,7 @@ Where options could contain the following fields:
   * It should take `(req, match)` arguments where match is react-router's match result.
   * If it's a `function` then its `this` references the engine instance.
 * `withIds`- **optional **boolean to indicate whether to render with react-dataids.
-* `stringifyPreloadedState `**optional **callback to return string for the preloaded state
+* `stringifyPreloadedState`**optional **callback to return string for the preloaded state
 * `logError`- **optional **callback to log any error
   * It should take `(req, err)`arguments
   * If it's a `function` then its `this` references the engine instance
@@ -144,8 +144,8 @@ Where options could contain the following fields:
 
 Method to render a route.
 
-* `req`- express/Hapi request object
-* `options`- override options passed to constructor
+* `req` - express/Hapi request object
+* `options` - override options passed to constructor
   * `withIds`
   * `stringifyPreloadedState`
   * `createReduxStore`

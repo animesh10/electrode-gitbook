@@ -6,12 +6,12 @@
 
 In less than one year, [Walmart.com](http://walmart.com/) has completed its migration to React/Node.js and we are proud of that accomplishment! The goal was to build a new application platform to help @WalmartLabs and its engineers scale for the future.
 
-As part of that migration [Electrode](http://www.electrode.io/) served as the platform for enabling the fast paced transformation. Now we have open sourced release of[Electrode](http://www.electrode.io/), the application platform powering Walmart.com.
+As part of that migration [Electrode](http://www.electrode.io/) served as the platform for enabling the fast paced transformation. Now we have open sourced release of [Electrode](http://www.electrode.io/), the application platform powering Walmart.com.
 
 #### 2. What are archetypes?
 
 Electrode archetypes are a way for every electrode module to share common scripts, dependencies and best practices that can be updated in real time, and have that update propagate to every module that inherits from that specific archetype.  
-Please refer to [what are archetypes?](http://www.electrode.io/docs/what_are_archetypes.html) for a detailed description of archetypes.
+Please refer to [what are archetypes](/chapter1/quick-start/what-are-archetypes.md)? for a detailed description of archetypes.
 
 #### 3. Why is my server throwing error "cannot find module ..." on start up?
 
@@ -19,9 +19,9 @@ Most likely you are using npm@2. Upgrade to npm@3 by running command `npm i -g n
 
 #### 4. What is the difference between creating a new electrode app using yo electrode vs cloning/forking Electrode Boilerplate?
 
-[Electrode Boilerplate](https://github.com/electrode-io/electrode#boilerplate-universal-react-node) was created using `yo electrode`command. `yo electrode` gives you a bare bones Electrode Isomorphic Universal React App with NodeJS backend.
+[Electrode Boilerplate](/chapter1/advanced/you-can-view-an-example-bundleanalyzetsv-output-using-the-electrode-boilerplate-code.md) was created using `yo electrode` command. `yo electrode` gives you a bare bones Electrode Isomorphic Universal React App with NodeJS backend.
 
-[Electrode Boilerplate](https://github.com/electrode-io/electrode#boilerplate-universal-react-node) includes all the bells and whistles for the SSR optimizations using the following modules configured and integrated for your use:
+[Electrode Boilerplate](/chapter1/advanced/you-can-view-an-example-bundleanalyzetsv-output-using-the-electrode-boilerplate-code.md) includes all the bells and whistles for the SSR optimizations using the following modules configured and integrated for your use:
 
 * [Electrode Confippet](https://github.com/electrode-io/electrode-confippet)
 * [Electrode CSRF JWT](https://github.com/electrode-io/electrode-csrf-jwt)
@@ -29,7 +29,7 @@ Most likely you are using npm@2. Upgrade to npm@3 by running command `npm i -g n
 * [Electrode Redux Router Engine](https://github.com/electrode-io/electrode-redux-router-engine)
 * [Above The Fold Only Server Render](https://github.com/electrode-io/above-the-fold-only-server-render)
 
-Head over to this amazing [blog](https://medium.com/walmartlabs/using-electrode-to-improve-react-server-side-render-performance-by-up-to-70-e43f9494eb8b#.9qjftiinq) written by [Alex Grigoryan](https://twitter.com/lexgrigoryan) about How Electrode improved Server Render performance by 70% using the [stand alone modules](http://www.electrode.io/docs/stand_alone_modules.html) listed above.
+Head over to this amazing [blog](https://medium.com/walmartlabs/using-electrode-to-improve-react-server-side-render-performance-by-up-to-70-e43f9494eb8b#.9qjftiinq) written by [Alex Grigoryan](https://twitter.com/lexgrigoryan) about How Electrode improved Server Render performance by 70% using the [stand alone modules](/chapter1/advanced/stand-alone-modules.md) listed above.
 
 #### 5. What do you mean by reusable electrode components?
 
@@ -39,11 +39,11 @@ _Note: If you just have one app, they probably shouldn't follow this model and e
 
 #### 6. Why do we focus on Universal JavaScript?
 
-* SEO - Because [Walmart.com](http://www.electrode.io/docs/www.walmart.com) is an eCommerce site, Search Engine Optimization is critical for our business model. To benefit from search indexing, SSR allows us to return an HTML string to search engines and our search analytics.
+* SEO - Because [Walmart.com](/www.walmart.com) is an eCommerce site, Search Engine Optimization is critical for our business model. To benefit from search indexing, SSR allows us to return an HTML string to search engines and our search analytics.
 
-* Reusability - At [Walmart.com](http://www.electrode.io/docs/www.walmart.com) we handle highly complex user interactions at an unbelievable scale. [ReactJS](https://facebook.github.io/react/) is the chosen framework to deal with this so our developers can create reusable components that we can then run universally: on the client and the server. Creating modular and reusable components has helped us to share the same code across several different pages and even different brands. The shared components all have one single source of truth and are easy to read, debug and implement, so our engineers can focus on building great features to enrich user experience.
+* Reusability - At [Walmart.com](/www.walmart.com) we handle highly complex user interactions at an unbelievable scale. [ReactJS](https://facebook.github.io/react/) is the chosen framework to deal with this so our developers can create reusable components that we can then run universally: on the client and the server. Creating modular and reusable components has helped us to share the same code across several different pages and even different brands. The shared components all have one single source of truth and are easy to read, debug and implement, so our engineers can focus on building great features to enrich user experience.
 
-* Maintainability - "[Code is a liability](https://medium.com/capital-one-developers/why-everyone-is-talking-about-isomorphic-universal-javascript-and-why-it-matters-38c07c87905#.y7cy5jki3)". Universal javascript allows developers to use modular components that are sharable, self-contained, and easy to reason about. We mentioned that we have thousands of components shared by thousand of developers at [WalmartLabs](http://www.electrode.io/docs/www.walmartlabs.com). Creating strict best practices and tools like [Electrode-Explorer](http://www.electrode.io/docs/electrode_explorer) help us to strengthen the increase in maintainability that Universal JS gives us.
+* Maintainability - "[Code is a liability](https://medium.com/capital-one-developers/why-everyone-is-talking-about-isomorphic-universal-javascript-and-why-it-matters-38c07c87905#.y7cy5jki3)". Universal javascript allows developers to use modular components that are sharable, self-contained, and easy to reason about. We mentioned that we have thousands of components shared by thousand of developers at WalmartLabs. Creating strict best practices and tools like [Electrode-Explorer](/chapter1/advanced/powerful-electrode-tools/electrode-explorer.md) help us to strengthen the increase in maintainability that Universal JS gives us.
 
 #### 7. Any plan with Graphql and React Native in the future ?
 
@@ -66,5 +66,5 @@ Initial versions of Electrode archetypes were certainly using\_npm scripts\_but 
 * **Compatibility**: At the moment our build tasks being shell scripts some are only compatible for Unix. If we go with tasks written in JS it's easier to make them compatible on other OS such as Windows.
 * **Resource**: With a large community behind gulp, there are a lot of plugins in the open source community for supporting various common build tasks and we can utilize them.
 
-gulp scripts can still be wrapped in **npm scripts **here is an example of using using npm scripts to execute JS tasks in the archetype: [https://github.com/electrode-io/electrode/blob/d4142ee0c938cbf973a429ee8467052aa4e1c9be/samples/universal-react-node/package.json\#L22-L29](https://github.com/electrode-io/electrode/blob/d4142ee0c938cbf973a429ee8467052aa4e1c9be/samples/universal-react-node/package.json#L22-L29)
+gulp scripts can still be wrapped in **npm scripts **here is an example of using using npm scripts to execute JS tasks in the archetype [here](https://github.com/electrode-io/electrode/blob/d4142ee0c938cbf973a429ee8467052aa4e1c9be/samples/universal-react-node/package.json#L22-L29).
 
