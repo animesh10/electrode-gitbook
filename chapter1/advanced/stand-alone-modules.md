@@ -16,5 +16,5 @@ Our flexible modules are dedicated to optimizing performance in specific areas b
 
 ### Bringing It All Together in an Advanced Electrode App
 
-By following the steps in the Getting Started: Advanced, you will have a fully loaded Electrode Application. It will consist of a Universal React and Node core, optimized module and powerful tools that have solved some of our most challenging problems when it comes to Walmart's scale and market demands. Take a deeper look into our [Electrode Boilerplate](http://www.electrode.io/docs/electrode_boilerplate.html) after you walk through our Stand Alone Modules and [Tools](http://www.electrode.io/docs/electrode_tools.html).
+By following the steps in the Getting Started: Advanced, you will have a fully loaded Electrode Application. It will consist of a Universal React and Node core, optimized module and powerful tools that have solved some of our most challenging problems when it comes to Walmart's scale and market demands. Take a deeper look into our [Electrode Boilerplate](/chapter1/advanced/you-can-view-an-example-bundleanalyzetsv-output-using-the-electrode-boilerplate-code.md) after you walk through our Stand Alone Modules and [Tools](/chapter1/advanced/powerful-electrode-tools.md).
 
