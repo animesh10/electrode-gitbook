@@ -38,7 +38,7 @@ In our [Getting Started](/chapter1.md) section, we introduced you to our Yeoman 
 
 * [Electrode-Docgen](https://github.com/electrode-io/electrode-docgen)
 
-This is the beginning foundation of the [Electrode Boilerplate](/chapter1/advanced/you-can-view-an-example-bundleanalyzetsv-output-using-the-electrode-boilerplate-code.md). You have learned in the [Stand Alone Modules](/chapter1/advanced/stand-alone-modules.md) section that each of the Electrode modules are agnostic and can be used individually to enhance one specific area of your application. However, integrated together, you have a supercharged application; one that is capable of handling the complex problems we face at [WalmartLabs](http://www.electrode.io/docs/www.walmartlabs.com) and reach maximum efficiency and performance.
+This is the beginning foundation of the [Electrode Boilerplate](/chapter1/advanced/you-can-view-an-example-bundleanalyzetsv-output-using-the-electrode-boilerplate-code.md). You have learned in the [Stand Alone Modules](/chapter1/advanced/stand-alone-modules.md) section that each of the Electrode modules are agnostic and can be used individually to enhance one specific area of your application. However, integrated together, you have a supercharged application; one that is capable of handling the complex problems we face at WalmartLabs and reach maximum efficiency and performance.
 
 This boilerplate includes the [Electrode Generator](/chapter1/quick-start/whats-inside.md) and it also has the following stand alone modules and tools built in for peak optimization out-of-the-box:
 

@@ -14,5 +14,3 @@ We've created incredible tools for better leverage of your application's capabil
 
 #### [Bundle Analyzer](/chapter1/advanced/powerful-electrode-tools/bundle-analyzer.md) is a webpack tool that gives you a detail list of all the files that went into your deduped and minified bundle JS file.
 
-
-
