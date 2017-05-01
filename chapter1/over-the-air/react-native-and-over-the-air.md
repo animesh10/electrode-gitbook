@@ -171,17 +171,17 @@ $ code-push app add <%=YourAppName%>
 
 Should result in something like
 
-`sh Successfully added the "YourAppName" app, along with the following default deployments: `
+`sh Successfully added the "YourAppName" app, along with the following default deployments:`
 
-`┌────────────┬───────────────────────────────────────┐ │ Name │ Deployment Key │ `
+`┌────────────┬───────────────────────────────────────┐ │ Name │ Deployment Key │`
 
-`├────────────┼───────────────────────────────────────┤ │ Production │ `
+`├────────────┼───────────────────────────────────────┤ │ Production │`
 
-`4ANCANCASDASDKASASDASDASDASDASDASDAS- │ `
+`4ANCANCASDASDKASASDASDASDASDASDASDAS- │`
 
-`├────────────┼───────────────────────────────────────┤ │ Staging │ `
+`├────────────┼───────────────────────────────────────┤ │ Staging │`
 
-`ASDASDASDASDASDASDASDASDASDASDASDASD- │ `
+`ASDASDASDASDASDASDASDASDASDASDASDASD- │`
 
 `└────────────┴───────────────────────────────────────┘`
 
@@ -189,13 +189,13 @@ These are your deployment keys. You will need them in the next step.
 
 ## Changes to Your Application.
 
-If your app is already using code-push you just need to do the following. If you have not setup your app for code-push, please follow Microsoft™'s guide to setting up the client SDK for React™[here](https://microsoft.github.io/code-push/docs/react-native.html)or Cordova™[here](https://microsoft.github.io/code-push/docs/cordova.html).
+If your app is already using code-push you just need to do the following. If you have not setup your app for code-push, please follow Microsoft™'s guide to setting up the client SDK for React™ [here](https://microsoft.github.io/code-push/docs/react-native.html) or Cordova™ [here](https://microsoft.github.io/code-push/docs/cordova.html).
 
-If you you need an Example application you can find one[here](https://github.com/Microsoft/react-native-code-push/tree/master/Examples/CodePushDemoApp).
+If you you need an Example application you can find one [here](https://github.com/Microsoft/react-native-code-push/tree/master/Examples/CodePushDemoApp).
 
 ### For IOS
 
-Then add the following to`ios/<%=your_app_name%>/Info.plist`. You can open this in`sh open ios/<%=your_app_name%>.xcodeprog`to edit.![](http://www.electrode.io/img/electrode-ota/Info-plist.png)Or using your favorite text editor.`xml <key>CodePushDeploymentKey</key><string><%=your_deployment_key%></string><key>CodePushServerURL</key><string>http://<%=your_ota_server%></string>`If your OTA server is not running over https you will need to add an exception to it in the`ios/<%=your_app_name%>/Info.plist`, or you use Xcode to update the file.`xml <dict><key>NSAllowsArbitraryLoads</key><true/><key>NSExceptionDomains</key><dict><key><%=your_ota_server%></key><dict><key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key><true/></dict></dict></dict>`
+Then add the following to `ios/<%=your_app_name%>/Info.plist`. You can open this in `sh open ios/<%=your_app_name%>.xcodeprog`to edit.![](http://www.electrode.io/img/electrode-ota/Info-plist.png)Or using your favorite text editor. `xml <key>CodePushDeploymentKey</key><string><%=your_deployment_key%></string><key>CodePushServerURL</key><string>http://<%=your_ota_server%></string>` If your OTA server is not running over https you will need to add an exception to it in the`ios/<%=your_app_name%>/Info.plist`, or you use Xcode to update the file. `xml <dict><key>NSAllowsArbitraryLoads</key><true/><key>NSExceptionDomains</key><dict><key><%=your_ota_server%></key><dict><key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key><true/></dict></dict></dict>`
 
 ### For Android
 
