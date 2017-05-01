@@ -22,9 +22,9 @@ $ npm install --save electrode-redux-router-engine
 
 ## Configuration
 
-The [redux-router engine](http://www.electrode.io/docs/redux_router_engine.html#redux-router-engine) is initialized by passing a set of [options](http://www.electrode.io/docs/redux_router_engine.html#API) including both the [react-router](http://www.electrode.io/docs/redux_router_engine.html#react-router) routes and the initial [Redux Store](http://www.electrode.io/docs/redux_router_engine.html#redux-store).
+The [redux-router engine](#redux-router-engine) is initialized by passing a set of [options](#redux-router-engine-api) including both the [react-router](#redux-router-engine-react-router) routes and the initial [Redux Store](#redux-router-engine-redux-store).
 
-#### React-Router
+#### React-Router {#redux-router-engine-react-router}
 
 Therefore, to configure the engine, you will first need specify your app's routes according to [react-router](https://github.com/reactjs/react-router)'s specs. For example, a typical `routes.jsx` file might look like this:
 
@@ -39,7 +39,7 @@ export default (
 );
 ```
 
-#### Redux Store
+#### Redux Store {#redux-router-engine-redux-store}
 
 Next, you'll want to configure the redux store using the [Redux Async Actions](http://redux.js.org/docs/advanced/AsyncActions.html) pattern. The first step in this pattern is to handle any middleware you might be using in addition to the required [redux thunk](https://github.com/gaearon/redux-thunk#redux-thunk) middleware which [allows actions to return functions instead of objects](http://redux.js.org/docs/advanced/AsyncActions.html#async-action-creators), an important step that lets synchronous action creators work with networks requests. We're also using [redux logger](https://github.com/evgenyrodionov/redux-logger#logger-for-redux) in this example to show how other middlewares can be integrated:
 
@@ -80,7 +80,7 @@ export default function createReduxStore(req) {
 
 For more information about the pattern used here, you can read about [using Async Actions in Redux](http://redux.js.org/docs/advanced/AsyncActions.html).
 
-#### Redux Router Engine
+#### Redux Router Engine {#redux-router-engine}
 
 The `ReduxRouterEngine`  is created using both the `Redux Store` and the `routes.jsx` component, each passed as key/value pairs to an options object. The module is stand-alone and can be used in **any **Redux application that runs on Express, Hapi or [WalmartLab's Electrode framework](http://www.electrode.io/). Here's how to configure the engine depending on your framework:
 
@@ -122,9 +122,9 @@ function handler(req, res) {
 
 Note the route handler configuration above is a stub in this case. In a real Hapi or Express application, the route handler would be more complex. You can refer to our [express](https://github.com/electrode-samples/express-react-redux-webpack/blob/8e6023af5d4c7f4ec8780cfeeb214efc04892b2c/src/server.js#L90-L94) and [Hapi](https://github.com/electrode-samples/hapi-react-redux/blob/685456d738997cfca5beda2ff3d9b655ad37e0e0/hapiApp/src/server.js#L123-L146) example applications for a more specific use case of the `engine.render` function.
 
-## API
+## API {#redux-router-engine-api}
 
-### [constructor\(options\)](http://www.electrode.io/docs/redux_router_engine.html)
+### [constructor\(options\)](/chapter1/advanced/stand-alone-modules/redux-router-engine.md)
 
 Where options could contain the following fields:
 
@@ -140,7 +140,7 @@ Where options could contain the following fields:
 * `renderToString`- **optional **callback to provide custom renderToString
   * It should take `(req, store, match, withIds)` arguments
 
-### [engine.render\(req, options\)](http://www.electrode.io/docs/redux_router_engine.html)
+### [engine.render\(req, options\)](/chapter1/advanced/stand-alone-modules/redux-router-engine.md)
 
 Method to render a route.
 
