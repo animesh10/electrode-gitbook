@@ -38,7 +38,7 @@ The Electrode Platform also has tools that can be consumed by existing applicati
 
 * [Redux](http://redux.js.org/docs/basics/UsageWithReact.html) - a predictable state container for JavaScript apps.
 
-* [React Router](https://github.com/ReactTraining/react-router/tree/master/docs) - a powerful routing library built on top of React.
+* [React Router](https://reacttraining.com/react-router/) - a powerful routing library built on top of React.
 
 * [CSS Modules](https://github.com/css-modules/css-modules) - a CSS file in which all class names and animation names are scoped locally by default. Fixes the problem of the global scope in CSS.
 
