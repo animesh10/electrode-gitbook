@@ -6,7 +6,7 @@ The [electrode-csrf-jwt](https://github.com/electrode-io/electrode-csrf-jwt) plu
 
 Protection against [CSRF](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_%28CSRF%29) is a very important security feature. Traditional anti-CSRF techniques use tokens issued by the server that the client has to post back. The server validates the request by comparing the token with its own, stored copy. But what if your application does not rely on server-side session persistence? Protecting users against CSRF attacks when your application does not use back-end sessions can be tricky. The Stateless CSRF JWT Validation module addresses this need.
 
-This module is a stand-alone module and can be configured to work in any [Electrode](http://www.electrode.io/docs/stateless_csrf_validation.html#electrode), [Express](http://www.electrode.io/docs/stateless_csrf_validation.html#express), or [Hapi](http://www.electrode.io/docs/stateless_csrf_validation.html#hapi) application.
+This module is a stand-alone module and can be configured to work in any [Electrode](#stateless-validation-electrode), [Express](#stateless-validation-express), or [Hapi](#stateless-validation-hapi) application.
 
 #### How do we validate requests?
 
@@ -21,7 +21,7 @@ headerPayload = { type: "header", UUID: "12345" };
 cookiePayload = { type: "cookie", UUID: "12345" };
 ```
 
-Once_both_tokens are received by the server, they are decoded and validated to make sure the payloads match.
+Once\_both\_tokens are received by the server, they are decoded and validated to make sure the payloads match.
 
 The disadvantage is that this method relies on the client making all requests through AJAX.
 
@@ -45,7 +45,7 @@ $ npm install --save electrode-csrf-jwt
 
 ### Configuration
 
-This module can be configured to work in any [Electrode](http://www.electrode.io/docs/stateless_csrf_validation.html#electrode), [Express](http://www.electrode.io/docs/stateless_csrf_validation.html#express), or [Hapi](http://www.electrode.io/docs/stateless_csrf_validation.html#hapi) application.
+This module can be configured to work in any [Electrode](#stateless-validation-electrode), [Express](#stateless-validation-express), or [Hapi](#stateless-validation-hapi) application.
 
 Whichever platform you are using, an `options` property with a secret key is required:
 
@@ -64,7 +64,7 @@ Other config properties are optional and follow the [same usage as jsonwebtoken]
 * `noTimestamp`
 * `headers`
 
-### Electrode
+### Electrode {#stateless-validation-electrode}
 
 All server configurations in [Electrode apps](/overview/what-is-electrode.md) are handled by the versatile [confippet](/chapter1/advanced/stand-alone-modules/confippet.md) module. The Stateless CSRF JWT Validation module can be easily configured by adding the following property to `config/default.json`:
 
@@ -81,7 +81,7 @@ All server configurations in [Electrode apps](/overview/what-is-electrode.md) ar
 }
 ```
 
-### Express
+### Express {#stateless-validation-express}
 
 #### Example`app.js`configuration
 
@@ -99,7 +99,7 @@ const options = {
 app.use(csrfMiddleware(options));
 ```
 
-### Hapi
+### Hapi {#stateless-validation-hapi}
 
 #### Example`server/index.js`configuration
 
@@ -122,7 +122,7 @@ server.register({register: csrfPlugin, options}, (err) => {
 
 ### Usage Example
 
-With the configuration shown above, your app is now ready to use Stateless CSRF JWT Validation. At this point, server endpoints do not require any additional configuration for protection to be enabled. Your`GET`endpoints will automatically return a CSRF cookie_and_header, and your`POST`endpoints will require the same.
+With the configuration shown above, your app is now ready to use Stateless CSRF JWT Validation. At this point, server endpoints do not require any additional configuration for protection to be enabled. Your`GET`endpoints will automatically return a CSRF cookie\_and\_header, and your`POST`endpoints will require the same.
 
 Let's see a simple [example](https://github.com/electrode-io/electrode/blob/d4142ee0c938cbf973a429ee8467052aa4e1c9be/samples/universal-react-node/README.md#electrode-csrf-jwt) to show how the CSRF tokens are automatically configured:
 
